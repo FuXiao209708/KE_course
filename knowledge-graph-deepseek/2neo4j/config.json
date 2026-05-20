@@ -1,0 +1,27 @@
+{
+  "__annotation1": "注释: password 一定要更改成你自己的password",
+  "password": "123456",
+  "__annotation2": "注释: 这里是列名和其对应的列的序号",
+  "input": 0,
+  "subject": 5,
+  "subject_type": 6,
+  "data/object": 3,
+  "relation": 4,
+  "object": 1,
+  "object_type": 2,
+  "__annotation3": "你的CSV文件的名字，可以在中括号中放入多个文件名",
+  "filename_csv": [
+    "./csv/1_output.csv",
+    "./csv/2_output.csv",
+    "./csv/3_output.csv",
+    "./csv/4_output.csv",
+    "./csv/5_output.csv",
+    "./csv/6_output.csv",
+    "./csv/7_output.csv",
+    "./csv/8_output.csv",
+    "./csv/9_output.csv",
+    "./csv/add.csv",
+    "./csv/exercise.csv"
+  ]
+}
+

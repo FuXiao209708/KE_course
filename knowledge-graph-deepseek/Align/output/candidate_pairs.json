@@ -1,0 +1,4502 @@
+[
+  {
+    "entity1": "本体概念层",
+    "entity2": "本体层概念",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 1.0,
+    "embedding_similarity": 1.0000001192092896,
+    "combined_score": 1.0000000715255737
+  },
+  {
+    "entity1": "关联数据",
+    "entity2": "数据关联",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 1.0,
+    "embedding_similarity": 1.0,
+    "combined_score": 1.0
+  },
+  {
+    "entity1": "图数据库Neo4j",
+    "entity2": "Neo4j图数据库",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 1.0,
+    "embedding_similarity": 0.8901125192642212,
+    "combined_score": 0.9340675115585327
+  },
+  {
+    "entity1": "单本体的集成",
+    "entity2": "单本体的本体集成",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 1.0,
+    "embedding_similarity": 0.8883955478668213,
+    "combined_score": 0.9330373287200928
+  },
+  {
+    "entity1": "抽取子本体",
+    "entity2": "子本体抽取",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 1.0,
+    "embedding_similarity": 0.8631727695465088,
+    "combined_score": 0.9179036617279053
+  },
+  {
+    "entity1": "知识图谱间的匹配",
+    "entity2": "大规模知识图谱间的匹配",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.8333333333333334,
+    "embedding_similarity": 0.9732964038848877,
+    "combined_score": 0.917311175664266
+  },
+  {
+    "entity1": "知识图谱数据存储方案",
+    "entity2": "知识图谱存储方案",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.9884291887283325,
+    "combined_score": 0.9130575132369996
+  },
+  {
+    "entity1": "以演绎推理为核心的知识图谱推理",
+    "entity2": "以归纳推理为核心的知识图谱推理",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.7777777777777778,
+    "embedding_similarity": 0.9999997615814209,
+    "combined_score": 0.9111109680599636
+  },
+  {
+    "entity1": "基于统计模型的方法",
+    "entity2": "基于统计的方法",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.9842942953109741,
+    "combined_score": 0.9105765771865845
+  },
+  {
+    "entity1": "比较本体间的术语的方法",
+    "entity2": "比较本体间的术语",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.8333333333333334,
+    "embedding_similarity": 0.95181804895401,
+    "combined_score": 0.9044241627057393
+  },
+  {
+    "entity1": "RDF图数据",
+    "entity2": "RDF数据图",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 1.0,
+    "embedding_similarity": 0.8398595452308655,
+    "combined_score": 0.9039157271385193
+  },
+  {
+    "entity1": "基于监督学习的关系抽取方法",
+    "entity2": "基于弱监督学习的关系抽取方法",
+    "entity1_type": "方法",
+    "entity2_type": "未知",
+    "name_similarity": 0.875,
+    "embedding_similarity": 0.908595085144043,
+    "combined_score": 0.8951570510864257
+  },
+  {
+    "entity1": "用空白节点写出RDF三元组1",
+    "entity2": "用空白节点写出RDF三元组2",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.9879240989685059,
+    "combined_score": 0.8927544593811035
+  },
+  {
+    "entity1": "金融领域知识图谱",
+    "entity2": "金融领域的知识图谱",
+    "entity1_type": "知识图谱",
+    "entity2_type": "知识图谱",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.9483686089515686,
+    "combined_score": 0.8890211653709412
+  },
+  {
+    "entity1": "向量空间表示",
+    "entity2": "关系表示向量空间",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.9813843965530396,
+    "combined_score": 0.8888306379318237
+  },
+  {
+    "entity1": "向量空间表示",
+    "entity2": "实体向量表示空间",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.9745116233825684,
+    "combined_score": 0.884706974029541
+  },
+  {
+    "entity1": "从类别中进行类型推断",
+    "entity2": "从文本中进行类型推断",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.7142857142857143,
+    "embedding_similarity": 0.9800896048545837,
+    "combined_score": 0.873768048627036
+  },
+  {
+    "entity1": "全局本体-局部本体的集成",
+    "entity2": "全局本体—局部本体的集成",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.7142857142857143,
+    "embedding_similarity": 0.977504551410675,
+    "combined_score": 0.8722170165606908
+  },
+  {
+    "entity1": "概念的集合",
+    "entity2": "全部概念的集合",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.9457900524139404,
+    "combined_score": 0.8674740314483643
+  },
+  {
+    "entity1": "中医临床知识的获取",
+    "entity2": "中医临床知识的表达",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 1.0000001192092896,
+    "combined_score": 0.8666667381922404
+  },
+  {
+    "entity1": "中医临床知识的获取",
+    "entity2": "中医临床知识的组织",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 1.0000001192092896,
+    "combined_score": 0.8666667381922404
+  },
+  {
+    "entity1": "中医临床知识的获取",
+    "entity2": "中医临床知识的存储",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 1.0000001192092896,
+    "combined_score": 0.8666667381922404
+  },
+  {
+    "entity1": "中医临床知识的表达",
+    "entity2": "中医临床知识的组织",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 1.0000001192092896,
+    "combined_score": 0.8666667381922404
+  },
+  {
+    "entity1": "中医临床知识的表达",
+    "entity2": "中医临床知识的存储",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 1.0000001192092896,
+    "combined_score": 0.8666667381922404
+  },
+  {
+    "entity1": "中医临床知识的组织",
+    "entity2": "中医临床知识的存储",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 1.0000001192092896,
+    "combined_score": 0.8666667381922404
+  },
+  {
+    "entity1": "多本体间的映射",
+    "entity2": "多本体间的沟通",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 1.0,
+    "combined_score": 0.8666666666666667
+  },
+  {
+    "entity1": "基于含义的匹配器",
+    "entity2": "基于注释的匹配器",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9965589046478271,
+    "combined_score": 0.864602009455363
+  },
+  {
+    "entity1": "实体检索",
+    "entity2": "实体属性检索",
+    "entity1_type": "知识问答",
+    "entity2_type": "知识问答",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.994452178478241,
+    "combined_score": 0.8633379737536113
+  },
+  {
+    "entity1": "异构本体间的映射",
+    "entity2": "多本体间的映射",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9938458204269409,
+    "combined_score": 0.8629741589228312
+  },
+  {
+    "entity1": "本体存储",
+    "entity2": "本体存储层",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9930770397186279,
+    "combined_score": 0.8625128904978434
+  },
+  {
+    "entity1": "本体概念层",
+    "entity2": "本体概念",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9930770397186279,
+    "combined_score": 0.8625128904978434
+  },
+  {
+    "entity1": "本体概念",
+    "entity2": "本体层概念",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9930770397186279,
+    "combined_score": 0.8625128904978434
+  },
+  {
+    "entity1": "数据转换",
+    "entity2": "数据转换方式",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9920385479927063,
+    "combined_score": 0.8618897954622904
+  },
+  {
+    "entity1": "端到端的深度学习问答模型",
+    "entity2": "深度学习问答模型",
+    "entity1_type": "知识问答",
+    "entity2_type": "知识问答",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9891490936279297,
+    "combined_score": 0.8601561228434245
+  },
+  {
+    "entity1": "OWL_2_QL",
+    "entity2": "OWL_2",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.9323182106018066,
+    "combined_score": 0.859390926361084
+  },
+  {
+    "entity1": "中医临床知识的获取",
+    "entity2": "结构化的中医临床知识",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9866740107536316,
+    "combined_score": 0.8586710731188456
+  },
+  {
+    "entity1": "中医临床知识的表达",
+    "entity2": "结构化的中医临床知识",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9866740107536316,
+    "combined_score": 0.8586710731188456
+  },
+  {
+    "entity1": "中医临床知识的组织",
+    "entity2": "结构化的中医临床知识",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9866740107536316,
+    "combined_score": 0.8586710731188456
+  },
+  {
+    "entity1": "中医临床知识的存储",
+    "entity2": "结构化的中医临床知识",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9866740107536316,
+    "combined_score": 0.8586710731188456
+  },
+  {
+    "entity1": "语义规范",
+    "entity2": "语义网规范",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9810693860054016,
+    "combined_score": 0.8553082982699076
+  },
+  {
+    "entity1": "使用RDFS进行推理1",
+    "entity2": "使用RDFS进行推理2",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.978032112121582,
+    "combined_score": 0.8534859339396159
+  },
+  {
+    "entity1": "分布式本体",
+    "entity2": "分布式本体演化",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9769912362098694,
+    "combined_score": 0.8528614083925883
+  },
+  {
+    "entity1": "子图匹配查询",
+    "entity2": "子图匹配",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9768854975700378,
+    "combined_score": 0.8527979652086894
+  },
+  {
+    "entity1": "节点集合",
+    "entity2": "邻接节点集合",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9743069410324097,
+    "combined_score": 0.8512508312861125
+  },
+  {
+    "entity1": "离散符号表示",
+    "entity2": "符号表示",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9735831022262573,
+    "combined_score": 0.8508165280024211
+  },
+  {
+    "entity1": "表示向量",
+    "entity2": "视觉表示向量",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9735023379325867,
+    "combined_score": 0.8507680694262187
+  },
+  {
+    "entity1": "术语相似",
+    "entity2": "相似术语对",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.97287917137146,
+    "combined_score": 0.8503941694895427
+  },
+  {
+    "entity1": "面向结构化数据的知识抽取",
+    "entity2": "面向百科类数据的知识抽取",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.625,
+    "embedding_similarity": 1.0000001192092896,
+    "combined_score": 0.8500000715255737
+  },
+  {
+    "entity1": "目标实体",
+    "entity2": "目标节点实体",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.971763551235199,
+    "combined_score": 0.849724797407786
+  },
+  {
+    "entity1": "字面值",
+    "entity2": "字面值索引",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9688654541969299,
+    "combined_score": 0.8479859391848246
+  },
+  {
+    "entity1": "计算结构相似度",
+    "entity2": "计算相似度",
+    "entity1_type": "未知",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.9040346741676331,
+    "combined_score": 0.8424208045005799
+  },
+  {
+    "entity1": "撰写Cypher查询语句1",
+    "entity2": "撰写Cypher查询语句2",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9582229852676392,
+    "combined_score": 0.8416004578272502
+  },
+  {
+    "entity1": "本体间概念的近似技术",
+    "entity2": "本体间的概念近似技术",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 1.0,
+    "embedding_similarity": 0.7352179288864136,
+    "combined_score": 0.8411307573318482
+  },
+  {
+    "entity1": "RDF中的谓语",
+    "entity2": "RDF中的宾语",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 1.0000001192092896,
+    "combined_score": 0.8400000715255737
+  },
+  {
+    "entity1": "术语相似度方法",
+    "entity2": "结构相似度方法",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 1.0,
+    "combined_score": 0.84
+  },
+  {
+    "entity1": "基于统计的方法",
+    "entity2": "基于模式的方法",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 1.0,
+    "combined_score": 0.84
+  },
+  {
+    "entity1": "基于统计的方法",
+    "entity2": "基于图形的方法",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 1.0,
+    "combined_score": 0.84
+  },
+  {
+    "entity1": "基于模式的方法",
+    "entity2": "基于图形的方法",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 1.0,
+    "combined_score": 0.84
+  },
+  {
+    "entity1": "知识图谱的存储",
+    "entity2": "知识图谱的补全",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9999999403953552,
+    "combined_score": 0.8399999642372131
+  },
+  {
+    "entity1": "知识图谱的表示方法",
+    "entity2": "知识图谱的向量表示方法",
+    "entity1_type": "知识表示",
+    "entity2_type": "未知",
+    "name_similarity": 0.8333333333333334,
+    "embedding_similarity": 0.8434537053108215,
+    "combined_score": 0.8394055565198263
+  },
+  {
+    "entity1": "多本体管理体系结构",
+    "entity2": "多本体管理",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.8976740837097168,
+    "combined_score": 0.8386044502258301
+  },
+  {
+    "entity1": "撰写Cypher查询语句2",
+    "entity2": "撰写Cypher查询语句3",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.951988935470581,
+    "combined_score": 0.8378600279490154
+  },
+  {
+    "entity1": "实体属性检索",
+    "entity2": "多种属性条件检索实体",
+    "entity1_type": "知识问答",
+    "entity2_type": "知识问答",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9946581125259399,
+    "combined_score": 0.836794867515564
+  },
+  {
+    "entity1": "中医临床知识体系可视化",
+    "entity2": "中医临床知识体系",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.8607704639434814,
+    "combined_score": 0.8364622783660889
+  },
+  {
+    "entity1": "概念之间的关系",
+    "entity2": "概念之间的念",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9921811819076538,
+    "combined_score": 0.8353087091445922
+  },
+  {
+    "entity1": "实体向量表示空间",
+    "entity2": "关系表示向量空间",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9898280501365662,
+    "combined_score": 0.8338968300819397
+  },
+  {
+    "entity1": "知识图谱的向量表示方法",
+    "entity2": "知识图谱的向量表示",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.8333333333333334,
+    "embedding_similarity": 0.8336217403411865,
+    "combined_score": 0.8335063775380452
+  },
+  {
+    "entity1": "全局本体—局部本体的集成",
+    "entity2": "全局本体—局部本体的集成方法",
+    "entity1_type": "未知",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.8571428571428571,
+    "embedding_similarity": 0.8171911239624023,
+    "combined_score": 0.8331718172345842
+  },
+  {
+    "entity1": "平均等级",
+    "entity2": "平均倒数等级",
+    "entity1_type": "属性文本",
+    "entity2_type": "属性文本",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9424078464508057,
+    "combined_score": 0.83211137453715
+  },
+  {
+    "entity1": "共现谓语节点",
+    "entity2": "谓语节点",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9416719079017639,
+    "combined_score": 0.831669811407725
+  },
+  {
+    "entity1": "关联数据",
+    "entity2": "数据关联网络",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9416719079017639,
+    "combined_score": 0.831669811407725
+  },
+  {
+    "entity1": "实体指称词典",
+    "entity2": "实体指称",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9416719079017639,
+    "combined_score": 0.831669811407725
+  },
+  {
+    "entity1": "结构层次",
+    "entity2": "概念结构层次",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9416719079017639,
+    "combined_score": 0.831669811407725
+  },
+  {
+    "entity1": "数据关联网络",
+    "entity2": "数据关联",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9416719079017639,
+    "combined_score": 0.831669811407725
+  },
+  {
+    "entity1": "语义映射规则",
+    "entity2": "语义规则",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9416719079017639,
+    "combined_score": 0.831669811407725
+  },
+  {
+    "entity1": "问答流程",
+    "entity2": "传统问答流程",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9416719079017639,
+    "combined_score": 0.831669811407725
+  },
+  {
+    "entity1": "关系向量表示",
+    "entity2": "表示向量",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9406614303588867,
+    "combined_score": 0.8310635248819986
+  },
+  {
+    "entity1": "基于快速相似度计算的方法使用的匹配器",
+    "entity2": "基于快速相似度计算的实例匹配方法",
+    "entity1_type": "未知",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.7272727272727273,
+    "embedding_similarity": 0.8995667099952698,
+    "combined_score": 0.8306491169062529
+  },
+  {
+    "entity1": "大规模知识图谱",
+    "entity2": "大规模知识图谱匹配",
+    "entity1_type": "知识图谱",
+    "entity2_type": "知识图谱",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.8819578289985657,
+    "combined_score": 0.8291746973991394
+  },
+  {
+    "entity1": "RDF数据管理",
+    "entity2": "RDF数据管理方法",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.937382161617279,
+    "combined_score": 0.8290959636370341
+  },
+  {
+    "entity1": "点边结构信息",
+    "entity2": "结构信息",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.936962366104126,
+    "combined_score": 0.8288440863291422
+  },
+  {
+    "entity1": "基于演绎的知识图谱推理",
+    "entity2": "基于归纳的知识图谱推理",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.7142857142857143,
+    "embedding_similarity": 0.904491662979126,
+    "combined_score": 0.8284092835017614
+  },
+  {
+    "entity1": "写出RDF三元组1",
+    "entity2": "写出RDF三元组2",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.97902512550354,
+    "combined_score": 0.827415075302124
+  },
+  {
+    "entity1": "OWL_2",
+    "entity2": "OWL_2_DL",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.8789923191070557,
+    "combined_score": 0.8273953914642335
+  },
+  {
+    "entity1": "进行后项推理1",
+    "entity2": "进行后项推理2",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9330801963806152,
+    "combined_score": 0.8265147844950358
+  },
+  {
+    "entity1": "向量空间",
+    "entity2": "向量空间维度",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9322028160095215,
+    "combined_score": 0.8259883562723795
+  },
+  {
+    "entity1": "撰写Cypher查询语句1",
+    "entity2": "撰写Cypher查询语句3",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9315805435180664,
+    "combined_score": 0.8256149927775065
+  },
+  {
+    "entity1": "概念的最小上界",
+    "entity2": "概念的最简多元最小上界",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.7142857142857143,
+    "embedding_similarity": 0.8962816596031189,
+    "combined_score": 0.823483281476157
+  },
+  {
+    "entity1": "通用知识表示语言",
+    "entity2": "知识表示语言",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.8718211650848389,
+    "combined_score": 0.8230926990509033
+  },
+  {
+    "entity1": "知识图谱的向量表示",
+    "entity2": "开放知识图谱的表示语言",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5714285714285714,
+    "embedding_similarity": 0.9892002940177917,
+    "combined_score": 0.8220916049821035
+  },
+  {
+    "entity1": "计算TF-IDF1",
+    "entity2": "计算TF-IDF2",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9697520136833191,
+    "combined_score": 0.8218512082099915
+  },
+  {
+    "entity1": "尾实体",
+    "entity2": "尾实体向量",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9248839616775513,
+    "combined_score": 0.8215970436731974
+  },
+  {
+    "entity1": "数据图",
+    "entity2": "图结构数据",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9248839616775513,
+    "combined_score": 0.8215970436731974
+  },
+  {
+    "entity1": "数据图",
+    "entity2": "图数据存储",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9248839616775513,
+    "combined_score": 0.8215970436731974
+  },
+  {
+    "entity1": "关系对",
+    "entity2": "多对多关系",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9248839616775513,
+    "combined_score": 0.8215970436731974
+  },
+  {
+    "entity1": "匹配点",
+    "entity2": "潜在匹配点",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9248839616775513,
+    "combined_score": 0.8215970436731974
+  },
+  {
+    "entity1": "异构本体间的数据转换",
+    "entity2": "异构本体间的映射",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5714285714285714,
+    "embedding_similarity": 0.9879252910614014,
+    "combined_score": 0.8213266032082693
+  },
+  {
+    "entity1": "结构化的数据",
+    "entity2": "半结构化的网页数据",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9679120779037476,
+    "combined_score": 0.8207472467422485
+  },
+  {
+    "entity1": "基于全局本体—局部本体的集成过程",
+    "entity2": "全局本体—局部本体的集成",
+    "entity1_type": "知识融合",
+    "entity2_type": "未知",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.8669945001602173,
+    "combined_score": 0.8201967000961304
+  },
+  {
+    "entity1": "RDF的三元组数据库",
+    "entity2": "面向RDF的三元组数据库",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.8333958983421326,
+    "combined_score": 0.8200375390052795
+  },
+  {
+    "entity1": "相似度",
+    "entity2": "相似度估计",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.92082679271698,
+    "combined_score": 0.8191627422968546
+  },
+  {
+    "entity1": "计算TF-IDF2",
+    "entity2": "计算TF-IDF3",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.96502685546875,
+    "combined_score": 0.81901611328125
+  },
+  {
+    "entity1": "计算TF-IDF1",
+    "entity2": "计算TF-IDF3",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9643882513046265,
+    "combined_score": 0.8186329507827759
+  },
+  {
+    "entity1": "计算Jaccard相似度",
+    "entity2": "计算相似度",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.8636857867240906,
+    "combined_score": 0.8182114720344543
+  },
+  {
+    "entity1": "合并建议列表",
+    "entity2": "本体合并建议列表",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.860892117023468,
+    "combined_score": 0.8165352702140808
+  },
+  {
+    "entity1": "语义本体",
+    "entity2": "本体语义",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 1.0,
+    "embedding_similarity": 0.6925849914550781,
+    "combined_score": 0.8155509948730468
+  },
+  {
+    "entity1": "简化三元组模式1",
+    "entity2": "简化三元组模式2",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9590185880661011,
+    "combined_score": 0.8154111528396606
+  },
+  {
+    "entity1": "远程监督关系抽取方法",
+    "entity2": "远程监督实体关系抽取方法",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.8333333333333334,
+    "embedding_similarity": 0.8033266663551331,
+    "combined_score": 0.8153293331464132
+  },
+  {
+    "entity1": "实体与概念之间的从属关系",
+    "entity2": "实体层与概念层之间的推理",
+    "entity1_type": "未知",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.625,
+    "embedding_similarity": 0.9410581588745117,
+    "combined_score": 0.814634895324707
+  },
+  {
+    "entity1": "相似度",
+    "entity2": "概念相似度",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9131149053573608,
+    "combined_score": 0.8145356098810832
+  },
+  {
+    "entity1": "基于图结构的推理",
+    "entity2": "图结构的推理",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.8229995965957642,
+    "combined_score": 0.8137997579574585
+  },
+  {
+    "entity1": "向量表示",
+    "entity2": "表示向量",
+    "entity1_type": "知识表示",
+    "entity2_type": "未知",
+    "name_similarity": 1.0,
+    "embedding_similarity": 0.6892475485801697,
+    "combined_score": 0.8135485291481018
+  },
+  {
+    "entity1": "本体集成",
+    "entity2": "集成本体",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 1.0,
+    "embedding_similarity": 0.6882072687149048,
+    "combined_score": 0.812924361228943
+  },
+  {
+    "entity1": "基于演绎的推理",
+    "entity2": "基于归纳的推理",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9547948837280273,
+    "combined_score": 0.8128769302368164
+  },
+  {
+    "entity1": "RDF中的主语",
+    "entity2": "RDF中的谓语",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9537264108657837,
+    "combined_score": 0.8122358465194702
+  },
+  {
+    "entity1": "RDF中的主语",
+    "entity2": "RDF中的宾语",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9537264108657837,
+    "combined_score": 0.8122358465194702
+  },
+  {
+    "entity1": "自顶向下的方法",
+    "entity2": "自顶向下的构建方法",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.8527805805206299,
+    "combined_score": 0.811668348312378
+  },
+  {
+    "entity1": "Neo4j图数据库",
+    "entity2": "Neo4j数据库",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.907276451587677,
+    "combined_score": 0.8110325376192729
+  },
+  {
+    "entity1": "本体语言OWL",
+    "entity2": "OWL本体",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9058496952056885,
+    "combined_score": 0.8101764837900798
+  },
+  {
+    "entity1": "基于术语的方法",
+    "entity2": "基于术语的映射发现方法",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9053504467010498,
+    "combined_score": 0.8098769346872965
+  },
+  {
+    "entity1": "金融证券领域知识图谱",
+    "entity2": "金融领域知识图谱",
+    "entity1_type": "知识图谱",
+    "entity2_type": "知识图谱",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9475694894790649,
+    "combined_score": 0.8085416936874389
+  },
+  {
+    "entity1": "基于术语的映射发现方法",
+    "entity2": "基于实例的本体映射发现方法",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.625,
+    "embedding_similarity": 0.9308720827102661,
+    "combined_score": 0.8085232496261596
+  },
+  {
+    "entity1": "查询执行计划",
+    "entity2": "查询执行",
+    "entity1_type": "未知",
+    "entity2_type": "语义搜索",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.9023990035057068,
+    "combined_score": 0.8081060687700907
+  },
+  {
+    "entity1": "概念层的推理",
+    "entity2": "实体层与概念层之间的推理",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.5714285714285714,
+    "embedding_similarity": 0.9647396802902222,
+    "combined_score": 0.8074152367455618
+  },
+  {
+    "entity1": "基于实例的本体映射技术",
+    "entity2": "基于实例的本体映射",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.8333333333333334,
+    "embedding_similarity": 0.7883431315422058,
+    "combined_score": 0.8063392122586568
+  },
+  {
+    "entity1": "基于表示学习的推理",
+    "entity2": "基于分布式表示学习的推理",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.8333333333333334,
+    "embedding_similarity": 0.7863301038742065,
+    "combined_score": 0.8051313956578573
+  },
+  {
+    "entity1": "图数据库Neo4j",
+    "entity2": "Neo4j数据库",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8974030017852783,
+    "combined_score": 0.8051084677378337
+  },
+  {
+    "entity1": "中文知识图谱",
+    "entity2": "中文开放知识图谱数据",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9413676261901855,
+    "combined_score": 0.8048205757141113
+  },
+  {
+    "entity1": "计算相似度1",
+    "entity2": "计算相似度2",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9412460923194885,
+    "combined_score": 0.8047476553916931
+  },
+  {
+    "entity1": "查询语句",
+    "entity2": "结构化查询语句",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8965925574302673,
+    "combined_score": 0.804622201124827
+  },
+  {
+    "entity1": "子图同态匹配",
+    "entity2": "子图匹配",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8961167335510254,
+    "combined_score": 0.804336706797282
+  },
+  {
+    "entity1": "计算相似度2",
+    "entity2": "计算相似度3",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9389927983283997,
+    "combined_score": 0.8033956789970398
+  },
+  {
+    "entity1": "全局本体-局部本体",
+    "entity2": "全局本体—局部本体",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9380037784576416,
+    "combined_score": 0.8028022670745849
+  },
+  {
+    "entity1": "RDF图数据模型",
+    "entity2": "RDF数据模型",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8934716582298279,
+    "combined_score": 0.8027496616045633
+  },
+  {
+    "entity1": "Is-a关系",
+    "entity2": "Is-a的关系",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.8027152419090271,
+    "combined_score": 0.8016291451454163
+  },
+  {
+    "entity1": "一阶谓词逻辑",
+    "entity2": "一阶逻辑",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8899595737457275,
+    "combined_score": 0.8006424109141033
+  },
+  {
+    "entity1": "面向本体的搜索引擎",
+    "entity2": "面向实体的搜索引擎",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.933759331703186,
+    "combined_score": 0.8002555990219116
+  },
+  {
+    "entity1": "推理的支持",
+    "entity2": "典型的推理",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.000000238418579,
+    "combined_score": 0.8000001430511474
+  },
+  {
+    "entity1": "⊓−−规则",
+    "entity2": "⊑−规则",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.000000238418579,
+    "combined_score": 0.8000001430511474
+  },
+  {
+    "entity1": "头实体向量",
+    "entity2": "尾实体向量",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.000000238418579,
+    "combined_score": 0.8000001430511474
+  },
+  {
+    "entity1": "图结构数据",
+    "entity2": "图数据存储",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.000000238418579,
+    "combined_score": 0.8000001430511474
+  },
+  {
+    "entity1": "本体模型层",
+    "entity2": "本体概念层",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.0000001192092896,
+    "combined_score": 0.8000000715255737
+  },
+  {
+    "entity1": "本体模型层",
+    "entity2": "本体抽象层",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.0000001192092896,
+    "combined_score": 0.8000000715255737
+  },
+  {
+    "entity1": "本体模型层",
+    "entity2": "本体存储层",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.0000001192092896,
+    "combined_score": 0.8000000715255737
+  },
+  {
+    "entity1": "本体模型层",
+    "entity2": "本体层概念",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.0000001192092896,
+    "combined_score": 0.8000000715255737
+  },
+  {
+    "entity1": "本体概念层",
+    "entity2": "本体抽象层",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.0000001192092896,
+    "combined_score": 0.8000000715255737
+  },
+  {
+    "entity1": "本体概念层",
+    "entity2": "本体存储层",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.0000001192092896,
+    "combined_score": 0.8000000715255737
+  },
+  {
+    "entity1": "本体抽象层",
+    "entity2": "本体存储层",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.0000001192092896,
+    "combined_score": 0.8000000715255737
+  },
+  {
+    "entity1": "本体抽象层",
+    "entity2": "本体层概念",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.0000001192092896,
+    "combined_score": 0.8000000715255737
+  },
+  {
+    "entity1": "本体存储层",
+    "entity2": "本体层概念",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.0000001192092896,
+    "combined_score": 0.8000000715255737
+  },
+  {
+    "entity1": "单值属性表",
+    "entity2": "多值属性表",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.0,
+    "combined_score": 0.8
+  },
+  {
+    "entity1": "语言匹配技术",
+    "entity2": "结构匹配技术",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.0,
+    "combined_score": 0.8
+  },
+  {
+    "entity1": "知识图谱补全",
+    "entity2": "知识图谱语言",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.0,
+    "combined_score": 0.8
+  },
+  {
+    "entity1": "知识图谱补全",
+    "entity2": "知识图谱实体",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.0,
+    "combined_score": 0.8
+  },
+  {
+    "entity1": "知识图谱语言",
+    "entity2": "知识图谱实体",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.0,
+    "combined_score": 0.8
+  },
+  {
+    "entity1": "表示学习模型",
+    "entity2": "表示学习推理",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.0,
+    "combined_score": 0.8
+  },
+  {
+    "entity1": "垂直领域问题",
+    "entity2": "通用领域问题",
+    "entity1_type": "知识问答",
+    "entity2_type": "知识问答",
+    "name_similarity": 0.5,
+    "embedding_similarity": 1.0,
+    "combined_score": 0.8
+  },
+  {
+    "entity1": "监督学习模型",
+    "entity2": "机器学习模型",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9999998807907104,
+    "combined_score": 0.7999999284744264
+  },
+  {
+    "entity1": "Jointly(w)",
+    "entity2": "Jointly(z)",
+    "entity1_type": "方法",
+    "entity2_type": "方法",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9330253601074219,
+    "combined_score": 0.799815216064453
+  },
+  {
+    "entity1": "本体异构",
+    "entity2": "异构本体概念",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8884307146072388,
+    "combined_score": 0.79972509543101
+  },
+  {
+    "entity1": "知识图谱的向量表示方法",
+    "entity2": "形式化的知识表示方法",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5714285714285714,
+    "embedding_similarity": 0.9509305953979492,
+    "combined_score": 0.799129785810198
+  },
+  {
+    "entity1": "关系映射",
+    "entity2": "映射关系",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 1.0,
+    "embedding_similarity": 0.6649686098098755,
+    "combined_score": 0.7989811658859254
+  },
+  {
+    "entity1": "撰写Cypher更新语句",
+    "entity2": "撰写Cypher创建语句",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.931098222732544,
+    "combined_score": 0.7986589336395263
+  },
+  {
+    "entity1": "本体OWL",
+    "entity2": "OWL本体管理",
+    "entity1_type": "知识表示",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8860548734664917,
+    "combined_score": 0.7982995907465618
+  },
+  {
+    "entity1": "基于特征模板的方法",
+    "entity2": "基于模板的方法",
+    "entity1_type": "未知",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.7970403432846069,
+    "combined_score": 0.7982242059707643
+  },
+  {
+    "entity1": "基于神经网络的推理",
+    "entity2": "基于神经网络的知识表示推理",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8854812383651733,
+    "combined_score": 0.7979554096857706
+  },
+  {
+    "entity1": "概念之间的关系",
+    "entity2": "词与词之间的关系",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9962002038955688,
+    "combined_score": 0.7977201223373414
+  },
+  {
+    "entity1": "基于弱监督学习的关系抽取方法",
+    "entity2": "基于核函数的监督学习方法",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9957782626152039,
+    "combined_score": 0.7974669575691222
+  },
+  {
+    "entity1": "匹配处理的时间复杂度",
+    "entity2": "匹配处理的空间复杂度",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.884488582611084,
+    "combined_score": 0.7973598162333171
+  },
+  {
+    "entity1": "深度神经网络模型",
+    "entity2": "深度神经网络",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8843145370483398,
+    "combined_score": 0.7972553888956706
+  },
+  {
+    "entity1": "表示学习方法",
+    "entity2": "分布式表示学习方法",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.828219473361969,
+    "combined_score": 0.7969316840171814
+  },
+  {
+    "entity1": "模板实例化",
+    "entity2": "模板实例化步骤",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9944628477096558,
+    "combined_score": 0.7966777086257935
+  },
+  {
+    "entity1": "基于实例的本体映射发现方法",
+    "entity2": "基于实例的映射发现方法",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.8571428571428571,
+    "embedding_similarity": 0.7562131881713867,
+    "combined_score": 0.7965850557599748
+  },
+  {
+    "entity1": "医案文本预处理",
+    "entity2": "医案文本浏览",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9937127232551575,
+    "combined_score": 0.7962276339530945
+  },
+  {
+    "entity1": "RDF图数据",
+    "entity2": "RDF语义数据",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9936369061470032,
+    "combined_score": 0.796182143688202
+  },
+  {
+    "entity1": "基于结构的方法",
+    "entity2": "基于结构的本体划分方法",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8820023536682129,
+    "combined_score": 0.7958680788675945
+  },
+  {
+    "entity1": "分布式表示学习",
+    "entity2": "分布式表示学习方法",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.8260482549667358,
+    "combined_score": 0.7956289529800415
+  },
+  {
+    "entity1": "语法解析规则",
+    "entity2": "语法规则",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8812316656112671,
+    "combined_score": 0.795405666033427
+  },
+  {
+    "entity1": "知识图谱Schema标准",
+    "entity2": "知识图谱Schema",
+    "entity1_type": "未知",
+    "entity2_type": "知识图谱",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.825192391872406,
+    "combined_score": 0.7951154351234436
+  },
+  {
+    "entity1": "本体概念相似度",
+    "entity2": "本体相似度",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.8244326114654541,
+    "combined_score": 0.7946595668792724
+  },
+  {
+    "entity1": "知识图谱补全",
+    "entity2": "知识图谱数据源",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9910711050033569,
+    "combined_score": 0.7946426630020142
+  },
+  {
+    "entity1": "逻辑描述基础",
+    "entity2": "描述逻辑知识库",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9910711050033569,
+    "combined_score": 0.7946426630020142
+  },
+  {
+    "entity1": "知识图谱语言",
+    "entity2": "知识图谱数据源",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9910711050033569,
+    "combined_score": 0.7946426630020142
+  },
+  {
+    "entity1": "关系推理任务",
+    "entity2": "产业链关系推理",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9910711050033569,
+    "combined_score": 0.7946426630020142
+  },
+  {
+    "entity1": "知识图谱数据源",
+    "entity2": "知识图谱实体",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9910711050033569,
+    "combined_score": 0.7946426630020142
+  },
+  {
+    "entity1": "基于核函数的监督学习方法",
+    "entity2": "基于深度学习的监督或远程监督方法",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9907777905464172,
+    "combined_score": 0.7944666743278503
+  },
+  {
+    "entity1": "基于术语的方法",
+    "entity2": "基于嵌入的方法",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9238724708557129,
+    "combined_score": 0.7943234825134277
+  },
+  {
+    "entity1": "有向边",
+    "entity2": "有向路径",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9905041456222534,
+    "combined_score": 0.794302487373352
+  },
+  {
+    "entity1": "计算相似度1",
+    "entity2": "计算相似度3",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9234626293182373,
+    "combined_score": 0.7940775775909423
+  },
+  {
+    "entity1": "多本体问题",
+    "entity2": "协调多本体",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9894844889640808,
+    "combined_score": 0.7936906933784484
+  },
+  {
+    "entity1": "OWL本体",
+    "entity2": "OWL本体描述语言",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8783612847328186,
+    "combined_score": 0.7936834375063577
+  },
+  {
+    "entity1": "数据类型的实例",
+    "entity2": "数据类型的值",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9892659187316895,
+    "combined_score": 0.7935595512390137
+  },
+  {
+    "entity1": "写出描述逻辑1",
+    "entity2": "写出描述逻辑2",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9224623441696167,
+    "combined_score": 0.79347740650177
+  },
+  {
+    "entity1": "写出RDF三元组2",
+    "entity2": "用空白节点写出RDF三元组2",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5714285714285714,
+    "embedding_similarity": 0.9404346942901611,
+    "combined_score": 0.7928322451455252
+  },
+  {
+    "entity1": "症状组合与证候的相关关系",
+    "entity2": "药物组合与方剂的相关关系",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5555555555555556,
+    "embedding_similarity": 0.9507349729537964,
+    "combined_score": 0.7926632059945
+  },
+  {
+    "entity1": "离线数据存储",
+    "entity2": "图数据存储",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9874812364578247,
+    "combined_score": 0.7924887418746949
+  },
+  {
+    "entity1": "语义邻居结构",
+    "entity2": "语义邻居集",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9874812364578247,
+    "combined_score": 0.7924887418746949
+  },
+  {
+    "entity1": "方剂与证候的相关关系",
+    "entity2": "药物组合与方剂的相关关系",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.625,
+    "embedding_similarity": 0.9033534526824951,
+    "combined_score": 0.792012071609497
+  },
+  {
+    "entity1": "关系表示向量空间",
+    "entity2": "关系向量表示",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.8198670148849487,
+    "combined_score": 0.7919202089309693
+  },
+  {
+    "entity1": "社会网络分析库",
+    "entity2": "社会网络分析",
+    "entity1_type": "知识推理",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8751974105834961,
+    "combined_score": 0.7917851130167644
+  },
+  {
+    "entity1": "本体间的映射",
+    "entity2": "本体间映射的管理",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.7861940860748291,
+    "combined_score": 0.7917164516448976
+  },
+  {
+    "entity1": "金融知识图谱",
+    "entity2": "金融领域知识图谱",
+    "entity1_type": "知识图谱",
+    "entity2_type": "知识图谱",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.8190572261810303,
+    "combined_score": 0.7914343357086182
+  },
+  {
+    "entity1": "网页数据的关联",
+    "entity2": "半结构化的网页数据",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9852923154830933,
+    "combined_score": 0.7911753892898559
+  },
+  {
+    "entity1": "知识图谱的存储",
+    "entity2": "知识图谱的数据模式",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9852923154830933,
+    "combined_score": 0.7911753892898559
+  },
+  {
+    "entity1": "知识图谱的数据模式",
+    "entity2": "知识图谱的补全",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9852923154830933,
+    "combined_score": 0.7911753892898559
+  },
+  {
+    "entity1": "匹配器",
+    "entity2": "结构匹配器",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8738948702812195,
+    "combined_score": 0.7910035888353983
+  },
+  {
+    "entity1": "基于术语的映射发现方法",
+    "entity2": "基于结构的映射发现方法",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.7142857142857143,
+    "embedding_similarity": 0.8420311212539673,
+    "combined_score": 0.790932958466666
+  },
+  {
+    "entity1": "基于统计模型的方法",
+    "entity2": "基于模式的方法",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9842942953109741,
+    "combined_score": 0.7905765771865845
+  },
+  {
+    "entity1": "基于统计模型的方法",
+    "entity2": "基于图形的方法",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9842942953109741,
+    "combined_score": 0.7905765771865845
+  },
+  {
+    "entity1": "基于统计的方法",
+    "entity2": "基于特征模板的方法",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9842942953109741,
+    "combined_score": 0.7905765771865845
+  },
+  {
+    "entity1": "基于统计的方法",
+    "entity2": "基于远程监督的方法",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9842942953109741,
+    "combined_score": 0.7905765771865845
+  },
+  {
+    "entity1": "基于特征模板的方法",
+    "entity2": "基于模式的方法",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9842942953109741,
+    "combined_score": 0.7905765771865845
+  },
+  {
+    "entity1": "基于特征模板的方法",
+    "entity2": "基于图形的方法",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9842942953109741,
+    "combined_score": 0.7905765771865845
+  },
+  {
+    "entity1": "基于远程监督的方法",
+    "entity2": "基于模式的方法",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9842942953109741,
+    "combined_score": 0.7905765771865845
+  },
+  {
+    "entity1": "基于远程监督的方法",
+    "entity2": "基于图形的方法",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9842942953109741,
+    "combined_score": 0.7905765771865845
+  },
+  {
+    "entity1": "结构化的查询语言",
+    "entity2": "结构化的数据",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9839176535606384,
+    "combined_score": 0.7903505921363831
+  },
+  {
+    "entity1": "本体OWL",
+    "entity2": "OWL本体",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 1.0,
+    "embedding_similarity": 0.6504599452018738,
+    "combined_score": 0.7902759671211244
+  },
+  {
+    "entity1": "多个匹配撰写查询结果",
+    "entity2": "简单查询撰写查询结果",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9828739762306213,
+    "combined_score": 0.7897243857383729
+  },
+  {
+    "entity1": "语义相似度得分",
+    "entity2": "相似度得分",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.8160989284515381,
+    "combined_score": 0.7896593570709229
+  },
+  {
+    "entity1": "owl:Thing",
+    "entity2": "owl:Nothing",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9827269315719604,
+    "combined_score": 0.7896361589431762
+  },
+  {
+    "entity1": "扩展的逆功能属性集规则",
+    "entity2": "逆功能属性集规则",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8709104657173157,
+    "combined_score": 0.7892129460970561
+  },
+  {
+    "entity1": "逻辑表达式生成",
+    "entity2": "逻辑表达式生成过程",
+    "entity1_type": "知识抽取",
+    "entity2_type": "未知",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.81493079662323,
+    "combined_score": 0.788958477973938
+  },
+  {
+    "entity1": "事实提取",
+    "entity2": "事实提取1",
+    "entity1_type": "未知",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8704375624656677,
+    "combined_score": 0.7889292041460674
+  },
+  {
+    "entity1": "搜索引擎",
+    "entity2": "该搜索引擎",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9810693860054016,
+    "combined_score": 0.788641631603241
+  },
+  {
+    "entity1": "不一致检查1",
+    "entity2": "不一致检查2",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9142735004425049,
+    "combined_score": 0.7885641002655029
+  },
+  {
+    "entity1": "本体管理",
+    "entity2": "多本体管理",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.869748592376709,
+    "combined_score": 0.788515822092692
+  },
+  {
+    "entity1": "部分整体关系",
+    "entity2": "整体—部分关系",
+    "entity1_type": "知识表示",
+    "entity2_type": "未知",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.8139563798904419,
+    "combined_score": 0.7883738279342651
+  },
+  {
+    "entity1": "表示向量",
+    "entity2": "文本表示向量",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8694553375244141,
+    "combined_score": 0.788339869181315
+  },
+  {
+    "entity1": "Optional图模式撰写查询结果1",
+    "entity2": "Optional图模式撰写查询语句2",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.5555555555555556,
+    "embedding_similarity": 0.9434656500816345,
+    "combined_score": 0.7883016122712029
+  },
+  {
+    "entity1": "意图分类",
+    "entity2": "意图分类模块",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8686162233352661,
+    "combined_score": 0.7878364006678262
+  },
+  {
+    "entity1": "写出RDF三元组1",
+    "entity2": "用空白节点写出RDF三元组1",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5714285714285714,
+    "embedding_similarity": 0.9320406913757324,
+    "combined_score": 0.7877958433968679
+  },
+  {
+    "entity1": "RDF语义数据",
+    "entity2": "RDF语义数据模型",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9795340895652771,
+    "combined_score": 0.7877204537391662
+  },
+  {
+    "entity1": "向量空间假设",
+    "entity2": "空间向量模型",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.979116678237915,
+    "combined_score": 0.7874700069427489
+  },
+  {
+    "entity1": "概念的最大下界",
+    "entity2": "概念的最简多元最大下界",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.867844820022583,
+    "combined_score": 0.7873735586802164
+  },
+  {
+    "entity1": "RDF图",
+    "entity2": "RDF图数据模型",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8676387071609497,
+    "combined_score": 0.7872498909632364
+  },
+  {
+    "entity1": "事实提取",
+    "entity2": "事实提取2",
+    "entity1_type": "未知",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8674113750457764,
+    "combined_score": 0.7871134916941325
+  },
+  {
+    "entity1": "概念之间的关系",
+    "entity2": "概念的层次关系",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9116286039352417,
+    "combined_score": 0.786977162361145
+  },
+  {
+    "entity1": "概念合并",
+    "entity2": "概念上下位关系合并",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9769866466522217,
+    "combined_score": 0.786191987991333
+  },
+  {
+    "entity1": "本体间的映射",
+    "entity2": "异构本体间的映射",
+    "entity1_type": "知识融合",
+    "entity2_type": "未知",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.7766684293746948,
+    "combined_score": 0.7860010576248169
+  },
+  {
+    "entity1": "关系向量表示",
+    "entity2": "视觉表示向量",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9757623672485352,
+    "combined_score": 0.7854574203491211
+  },
+  {
+    "entity1": "事件的联合抽取方法",
+    "entity2": "联合事件抽取方法",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.7756274938583374,
+    "combined_score": 0.7853764963150025
+  },
+  {
+    "entity1": "语义信息",
+    "entity2": "结构化语义信息",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.864159345626831,
+    "combined_score": 0.7851622740427653
+  },
+  {
+    "entity1": "中医临床知识的分类",
+    "entity2": "结构化的中医临床知识",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8635926842689514,
+    "combined_score": 0.7848222772280375
+  },
+  {
+    "entity1": "弱语义的元素层次匹配器",
+    "entity2": "强语义的元素层次匹配器",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.8073136806488037,
+    "combined_score": 0.7843882083892822
+  },
+  {
+    "entity1": "异构本体间的映射",
+    "entity2": "描述本体间映射的桥本体层",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9736766815185547,
+    "combined_score": 0.7842060089111329
+  },
+  {
+    "entity1": "知识表示方法",
+    "entity2": "表示方法",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8621604442596436,
+    "combined_score": 0.7839629332224527
+  },
+  {
+    "entity1": "Skip-gram",
+    "entity2": "Skip-gram模型",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.8060860633850098,
+    "combined_score": 0.7836516380310059
+  },
+  {
+    "entity1": "命名实体识别",
+    "entity2": "命名实体识别技术",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.805941104888916,
+    "combined_score": 0.7835646629333497
+  },
+  {
+    "entity1": "实体信息",
+    "entity2": "相邻实体信息",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8611688613891602,
+    "combined_score": 0.7833679835001628
+  },
+  {
+    "entity1": "SPARQL查询",
+    "entity2": "SPARQL查询图",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8601795434951782,
+    "combined_score": 0.7827743927637736
+  },
+  {
+    "entity1": "相似度",
+    "entity2": "余弦相似度",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.860066294670105,
+    "combined_score": 0.7827064434687296
+  },
+  {
+    "entity1": "中医临床知识的获取",
+    "entity2": "中医临床知识的分类",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8600512742996216,
+    "combined_score": 0.7826974312464396
+  },
+  {
+    "entity1": "中医临床知识的分类",
+    "entity2": "中医临床知识的表达",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8600512742996216,
+    "combined_score": 0.7826974312464396
+  },
+  {
+    "entity1": "中医临床知识的分类",
+    "entity2": "中医临床知识的组织",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8600512742996216,
+    "combined_score": 0.7826974312464396
+  },
+  {
+    "entity1": "中医临床知识的分类",
+    "entity2": "中医临床知识的存储",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8600512742996216,
+    "combined_score": 0.7826974312464396
+  },
+  {
+    "entity1": "水平表",
+    "entity2": "水平表存储方案",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9711190462112427,
+    "combined_score": 0.7826714277267457
+  },
+  {
+    "entity1": "实体和关系的表示",
+    "entity2": "关系的表示",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9044348001480103,
+    "combined_score": 0.7826608800888061
+  },
+  {
+    "entity1": "语义描述文档相似度",
+    "entity2": "语义描述文档",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9040869474411011,
+    "combined_score": 0.7824521684646606
+  },
+  {
+    "entity1": "基于图的方法",
+    "entity2": "基于语言的方法",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9039900302886963,
+    "combined_score": 0.7823940181732177
+  },
+  {
+    "entity1": "多本体间的映射",
+    "entity2": "多本体的映射",
+    "entity1_type": "未知",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.7704092264175415,
+    "combined_score": 0.7822455358505249
+  },
+  {
+    "entity1": "异构本体",
+    "entity2": "本体异构",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 1.0,
+    "embedding_similarity": 0.6366946697235107,
+    "combined_score": 0.7820168018341065
+  },
+  {
+    "entity1": "撰写Cypher查询语句1",
+    "entity2": "撰写Cypher创建语句",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9694271683692932,
+    "combined_score": 0.781656301021576
+  },
+  {
+    "entity1": "异构本体间的映射",
+    "entity2": "初始本体概念间的映射关系",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9689780473709106,
+    "combined_score": 0.7813868284225465
+  },
+  {
+    "entity1": "基于图的技术",
+    "entity2": "基于实例的技术",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9020931124687195,
+    "combined_score": 0.7812558674812317
+  },
+  {
+    "entity1": "基于全局本体—局部本体的集成过程",
+    "entity2": "全局本体—局部本体的集成方法",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8576470613479614,
+    "combined_score": 0.7812549034754435
+  },
+  {
+    "entity1": "符号表示",
+    "entity2": "计算机符号表示",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8571815490722656,
+    "combined_score": 0.780975596110026
+  },
+  {
+    "entity1": "概念间近似",
+    "entity2": "概念间的最佳近似",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.9012413024902344,
+    "combined_score": 0.7807447814941406
+  },
+  {
+    "entity1": "相似度",
+    "entity2": "关系相似度",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8567132949829102,
+    "combined_score": 0.7806946436564128
+  },
+  {
+    "entity1": "RDF的三元组数据库",
+    "entity2": "RDF三元组数据库",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.8010792136192322,
+    "combined_score": 0.7806475281715393
+  },
+  {
+    "entity1": "RDF三元组数据库",
+    "entity2": "RDF数据库",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8565393686294556,
+    "combined_score": 0.78059028784434
+  },
+  {
+    "entity1": "语言层不匹配",
+    "entity2": "模型层不匹配",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8996589183807373,
+    "combined_score": 0.7797953510284423
+  },
+  {
+    "entity1": "本体OWL",
+    "entity2": "OWL本体描述语言",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.854520320892334,
+    "combined_score": 0.779378859202067
+  },
+  {
+    "entity1": "本体模块化方法",
+    "entity2": "模块化方法",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8540147542953491,
+    "combined_score": 0.7790755192438761
+  },
+  {
+    "entity1": "知识图谱Schema",
+    "entity2": "图情知识图谱Schema模型",
+    "entity1_type": "知识图谱",
+    "entity2_type": "知识图谱",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8980504274368286,
+    "combined_score": 0.7788302564620971
+  },
+  {
+    "entity1": "本体间的映射",
+    "entity2": "多本体的映射",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.897517740726471,
+    "combined_score": 0.7785106444358826
+  },
+  {
+    "entity1": "复合源本体表达式",
+    "entity2": "复合目标本体表达式",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8973219990730286,
+    "combined_score": 0.7783931994438171
+  },
+  {
+    "entity1": "提及-实体",
+    "entity2": "实体-实体",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8526105284690857,
+    "combined_score": 0.7782329837481181
+  },
+  {
+    "entity1": "本体间的映射",
+    "entity2": "多本体间的映射",
+    "entity1_type": "知识融合",
+    "entity2_type": "未知",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.7637213468551636,
+    "combined_score": 0.7782328081130983
+  },
+  {
+    "entity1": "知识图谱的表示方法",
+    "entity2": "形式化的知识表示方法",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.852398157119751,
+    "combined_score": 0.7781055609385172
+  },
+  {
+    "entity1": "图的形式表示",
+    "entity2": "图的形式",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.7966669797897339,
+    "combined_score": 0.7780001878738403
+  },
+  {
+    "entity1": "向量表示方法",
+    "entity2": "表示方法",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8514441251754761,
+    "combined_score": 0.7775331417719522
+  },
+  {
+    "entity1": "实体层的推理",
+    "entity2": "实体层与概念层之间的推理",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.5714285714285714,
+    "embedding_similarity": 0.914652407169342,
+    "combined_score": 0.7773628728730337
+  },
+  {
+    "entity1": "远程监督方法",
+    "entity2": "远程监督关系抽取方法",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8953841924667358,
+    "combined_score": 0.7772305154800415
+  },
+  {
+    "entity1": "语义层面的信息",
+    "entity2": "先验的语义信息",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8949637413024902,
+    "combined_score": 0.7769782447814941
+  },
+  {
+    "entity1": "HTTP_URIs",
+    "entity2": "HTTP_URI",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9614109992980957,
+    "combined_score": 0.7768465995788574
+  },
+  {
+    "entity1": "OWL_2_EL",
+    "entity2": "OWL_2",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.7934529185295105,
+    "combined_score": 0.7760717511177063
+  },
+  {
+    "entity1": "撰写Cypher查询语句2",
+    "entity2": "撰写Cypher创建语句",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9601032733917236,
+    "combined_score": 0.7760619640350341
+  },
+  {
+    "entity1": "Jaccard相似度",
+    "entity2": "计算Jaccard相似度",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.793321967124939,
+    "combined_score": 0.7759931802749633
+  },
+  {
+    "entity1": "多本体间的映射",
+    "entity2": "描述本体间映射的桥本体层",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9587885737419128,
+    "combined_score": 0.7752731442451477
+  },
+  {
+    "entity1": "端到端的问答系统",
+    "entity2": "端到端的知识问答",
+    "entity1_type": "知识问答",
+    "entity2_type": "知识问答",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8915219306945801,
+    "combined_score": 0.774913158416748
+  },
+  {
+    "entity1": "全局本体—局部本体的集成",
+    "entity2": "全局本体—局部本体",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8467148542404175,
+    "combined_score": 0.7746955792109171
+  },
+  {
+    "entity1": "多本体语义标注",
+    "entity2": "本体语义",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9577077627182007,
+    "combined_score": 0.7746246576309204
+  },
+  {
+    "entity1": "RDF图数据",
+    "entity2": "虚拟RDF图",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9568618535995483,
+    "combined_score": 0.774117112159729
+  },
+  {
+    "entity1": "语法树",
+    "entity2": "语法依存树",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8452825546264648,
+    "combined_score": 0.7738361994425456
+  },
+  {
+    "entity1": "基于术语的映射发现方法",
+    "entity2": "基于实例的映射发现方法",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.7142857142857143,
+    "embedding_similarity": 0.8131155371665955,
+    "combined_score": 0.7735836080142431
+  },
+  {
+    "entity1": "RDF语义数据模型",
+    "entity2": "RDF数据模型",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8443214893341064,
+    "combined_score": 0.7732595602671306
+  },
+  {
+    "entity1": "本体映射",
+    "entity2": "本体映射规则",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8438704013824463,
+    "combined_score": 0.7729889074961345
+  },
+  {
+    "entity1": "映射结果质量",
+    "entity2": "映射结果的质量",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.7879536151885986,
+    "combined_score": 0.7727721691131593
+  },
+  {
+    "entity1": "半结构化的网页数据",
+    "entity2": "半结构化的数据",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.7541224956512451,
+    "combined_score": 0.7724734973907471
+  },
+  {
+    "entity1": "OWL_Lite",
+    "entity2": "OWL_DL",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9538002014160156,
+    "combined_score": 0.7722801208496093
+  },
+  {
+    "entity1": "基于语言的方法",
+    "entity2": "基于组件的方法",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8862816691398621,
+    "combined_score": 0.7717690014839172
+  },
+  {
+    "entity1": "全局本体-局部本体的集成",
+    "entity2": "全局本体-局部本体",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8418045043945312,
+    "combined_score": 0.7717493693033854
+  },
+  {
+    "entity1": "知识图谱问答技术",
+    "entity2": "知识问答技术",
+    "entity1_type": "知识问答",
+    "entity2_type": "知识问答",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.785902738571167,
+    "combined_score": 0.7715416431427002
+  },
+  {
+    "entity1": "OWL_2",
+    "entity2": "OWL_2_Full",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.7856519222259521,
+    "combined_score": 0.7713911533355713
+  },
+  {
+    "entity1": "事实提取1",
+    "entity2": "事实提取2",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9519537687301636,
+    "combined_score": 0.7711722612380982
+  },
+  {
+    "entity1": "本体演化",
+    "entity2": "本体演化管理",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8407309055328369,
+    "combined_score": 0.7711052099863689
+  },
+  {
+    "entity1": "三元组数据库",
+    "entity2": "RDF三元组数据库",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8406833410263062,
+    "combined_score": 0.7710766712824504
+  },
+  {
+    "entity1": "知识图谱表示学习",
+    "entity2": "知识图谱表示学习技术",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.7514569759368896,
+    "combined_score": 0.7708741855621338
+  },
+  {
+    "entity1": "数据类型的值",
+    "entity2": "属性值的数据类型",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.7847411632537842,
+    "combined_score": 0.7708446979522705
+  },
+  {
+    "entity1": "形式化的语法",
+    "entity2": "形式化的语义",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9509731531143188,
+    "combined_score": 0.7705838918685912
+  },
+  {
+    "entity1": "概念之间的关系",
+    "entity2": "实体之间的关系",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8838324546813965,
+    "combined_score": 0.7702994728088378
+  },
+  {
+    "entity1": "知识表示方法",
+    "entity2": "形式化的知识表示方法",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.882171630859375,
+    "combined_score": 0.769302978515625
+  },
+  {
+    "entity1": "OWL_2_QL",
+    "entity2": "OWL_2_DL",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8813333511352539,
+    "combined_score": 0.7688000106811523
+  },
+  {
+    "entity1": "上义和下义映射",
+    "entity2": "上义和下义关系",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.881096601486206,
+    "combined_score": 0.7686579608917236
+  },
+  {
+    "entity1": "概念的属性",
+    "entity2": "实体的属性",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9466899037361145,
+    "combined_score": 0.7680139422416687
+  },
+  {
+    "entity1": "SPARQL查询",
+    "entity2": "SPARQL查询客户端",
+    "entity1_type": "知识表示",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.835162878036499,
+    "combined_score": 0.7677643934885661
+  },
+  {
+    "entity1": "面向结构化数据的知识抽取",
+    "entity2": "非结构化数据的知识抽取",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.7142857142857143,
+    "embedding_similarity": 0.8034003376960754,
+    "combined_score": 0.7677544883319309
+  },
+  {
+    "entity1": "Apache_Jena_SPARQL教程",
+    "entity2": "Apache_Jena",
+    "entity1_type": "知识图谱项目",
+    "entity2_type": "知识图谱项目",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8788126111030579,
+    "combined_score": 0.7672875666618347
+  },
+  {
+    "entity1": "不一致检查",
+    "entity2": "不一致检查1",
+    "entity1_type": "未知",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.7788026928901672,
+    "combined_score": 0.7672816157341004
+  },
+  {
+    "entity1": "初始本体概念间的映射关系",
+    "entity2": "多本体间的映射",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9453927874565125,
+    "combined_score": 0.7672356724739076
+  },
+  {
+    "entity1": "知识图谱的表示学习",
+    "entity2": "基于知识图谱表示学习技术的推荐模型",
+    "entity1_type": "未知",
+    "entity2_type": "推荐模型",
+    "name_similarity": 0.5555555555555556,
+    "embedding_similarity": 0.9081548452377319,
+    "combined_score": 0.7671151293648614
+  },
+  {
+    "entity1": "结构匹配",
+    "entity2": "结构匹配算法",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8335549831390381,
+    "combined_score": 0.7667996565500894
+  },
+  {
+    "entity1": "RDF三元组存储",
+    "entity2": "RDF三元组存储系统",
+    "entity1_type": "知识存储",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9436323046684265,
+    "combined_score": 0.7661793828010559
+  },
+  {
+    "entity1": "问答系统",
+    "entity2": "知识问答系统",
+    "entity1_type": "知识问答",
+    "entity2_type": "知识问答",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8314173221588135,
+    "combined_score": 0.7655170599619547
+  },
+  {
+    "entity1": "知识图谱表示学习方法",
+    "entity2": "知识图谱表示学习",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.7421327829360962,
+    "combined_score": 0.7652796697616577
+  },
+  {
+    "entity1": "语义搜索",
+    "entity2": "语义搜索系统",
+    "entity1_type": "语义搜索",
+    "entity2_type": "语义搜索",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8308761119842529,
+    "combined_score": 0.7651923338572184
+  },
+  {
+    "entity1": "give a model1",
+    "entity2": "give a model3",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8752049207687378,
+    "combined_score": 0.7651229524612426
+  },
+  {
+    "entity1": "基于监督学习的关系抽取方法",
+    "entity2": "基于核函数的监督学习方法",
+    "entity1_type": "方法",
+    "entity2_type": "未知",
+    "name_similarity": 0.5555555555555556,
+    "embedding_similarity": 0.9047356247901917,
+    "combined_score": 0.7650635970963372
+  },
+  {
+    "entity1": "查询处理功能",
+    "entity2": "查询处理",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9416719079017639,
+    "combined_score": 0.7650031447410583
+  },
+  {
+    "entity1": "在线查询处理",
+    "entity2": "查询处理",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9416719079017639,
+    "combined_score": 0.7650031447410583
+  },
+  {
+    "entity1": "层次结构",
+    "entity2": "概念层次结构",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9416719079017639,
+    "combined_score": 0.7650031447410583
+  },
+  {
+    "entity1": "机器翻译",
+    "entity2": "机器翻译技术",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9416719079017639,
+    "combined_score": 0.7650031447410583
+  },
+  {
+    "entity1": "基于结构的方法",
+    "entity2": "基于内部结构的方法",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8748176097869873,
+    "combined_score": 0.7648905658721924
+  },
+  {
+    "entity1": "行业知识图谱",
+    "entity2": "垂直知识图谱",
+    "entity1_type": "知识图谱",
+    "entity2_type": "知识图谱",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9414673447608948,
+    "combined_score": 0.7648804068565369
+  },
+  {
+    "entity1": "本体合并工具",
+    "entity2": "合并的本体",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9412775039672852,
+    "combined_score": 0.7647665023803711
+  },
+  {
+    "entity1": "领域中特定的特征",
+    "entity2": "特定领域的知识库",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9407476186752319,
+    "combined_score": 0.7644485712051392
+  },
+  {
+    "entity1": "撰写Cypher查询语句3",
+    "entity2": "撰写Cypher创建语句",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9396790862083435,
+    "combined_score": 0.7638074517250062
+  },
+  {
+    "entity1": "基于规则学习的推理",
+    "entity2": "基于规则的推理",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8724973201751709,
+    "combined_score": 0.7634983921051025
+  },
+  {
+    "entity1": "向量空间表示",
+    "entity2": "表示向量",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8278095722198486,
+    "combined_score": 0.7633524099985758
+  },
+  {
+    "entity1": "本体管理",
+    "entity2": "本体演化管理",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.827031672000885,
+    "combined_score": 0.7628856698671976
+  },
+  {
+    "entity1": "查询语句撰写2",
+    "entity2": "撰写Cypher查询语句2",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.7380598783493042,
+    "combined_score": 0.7628359270095826
+  },
+  {
+    "entity1": "主语",
+    "entity2": "主语列",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9380092620849609,
+    "combined_score": 0.7628055572509767
+  },
+  {
+    "entity1": "概念相似度",
+    "entity2": "相似度估计",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9378357529640198,
+    "combined_score": 0.7627014517784119
+  },
+  {
+    "entity1": "金融证券知识图谱",
+    "entity2": "金融证券领域知识图谱",
+    "entity1_type": "知识图谱",
+    "entity2_type": "知识图谱",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.7700088024139404,
+    "combined_score": 0.7620052814483642
+  },
+  {
+    "entity1": "类目",
+    "entity2": "类目表",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9361934661865234,
+    "combined_score": 0.761716079711914
+  },
+  {
+    "entity1": "查询语句撰写1",
+    "entity2": "查询语句撰写2",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8694474101066589,
+    "combined_score": 0.7616684460639953
+  },
+  {
+    "entity1": "知识表示",
+    "entity2": "知识表示语言",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8240140080451965,
+    "combined_score": 0.7610750714937846
+  },
+  {
+    "entity1": "OWL_DL",
+    "entity2": "OWL_2_DL",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.7671911716461182,
+    "combined_score": 0.7603147029876709
+  },
+  {
+    "entity1": "结构化的数据",
+    "entity2": "非结构化数据的知识抽取",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9337759017944336,
+    "combined_score": 0.7602655410766601
+  },
+  {
+    "entity1": "方剂与证候的相关关系",
+    "entity2": "症状组合与证候的相关关系",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.625,
+    "embedding_similarity": 0.8504055738449097,
+    "combined_score": 0.7602433443069457
+  },
+  {
+    "entity1": "基于向量的知识图谱表示",
+    "entity2": "知识图谱的表示学习",
+    "entity1_type": "知识表示",
+    "entity2_type": "未知",
+    "name_similarity": 0.5714285714285714,
+    "embedding_similarity": 0.8859539031982422,
+    "combined_score": 0.7601437704903738
+  },
+  {
+    "entity1": "模型覆盖的不匹配",
+    "entity2": "模型风格的不匹配",
+    "entity1_type": "知识表示",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.821635901927948,
+    "combined_score": 0.7596482078234355
+  },
+  {
+    "entity1": "数据分析",
+    "entity2": "描述性数据分析",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9324427843093872,
+    "combined_score": 0.7594656705856324
+  },
+  {
+    "entity1": "相似度匹配",
+    "entity2": "关系相似度",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9318839907646179,
+    "combined_score": 0.7591303944587708
+  },
+  {
+    "entity1": "知识图谱",
+    "entity2": "知识图谱数据模型",
+    "entity1_type": "知识图谱",
+    "entity2_type": "知识图谱",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8207056522369385,
+    "combined_score": 0.7590900580088298
+  },
+  {
+    "entity1": "图结构数据",
+    "entity2": "图结构语义数据",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.7649506330490112,
+    "combined_score": 0.7589703798294067
+  },
+  {
+    "entity1": "同义",
+    "entity2": "同义关系",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9312045574188232,
+    "combined_score": 0.7587227344512939
+  },
+  {
+    "entity1": "标签的含义",
+    "entity2": "标签的有向图",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9308094382286072,
+    "combined_score": 0.7584856629371644
+  },
+  {
+    "entity1": "子图",
+    "entity2": "子图匹配",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9306527376174927,
+    "combined_score": 0.7583916425704955
+  },
+  {
+    "entity1": "知识表示方法",
+    "entity2": "知识图谱的向量表示方法",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9303438663482666,
+    "combined_score": 0.7582063198089599
+  },
+  {
+    "entity1": "结构相似度方法",
+    "entity2": "计算结构相似度",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8624004125595093,
+    "combined_score": 0.7574402475357055
+  },
+  {
+    "entity1": "知识图谱表示学习",
+    "entity2": "知识图谱向量表示",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8620302081108093,
+    "combined_score": 0.7572181248664855
+  },
+  {
+    "entity1": "知识整合",
+    "entity2": "整合",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9282481670379639,
+    "combined_score": 0.7569489002227783
+  },
+  {
+    "entity1": "计算结构相似度",
+    "entity2": "计算相似度1",
+    "entity1_type": "未知",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8606750965118408,
+    "combined_score": 0.7564050579071044
+  },
+  {
+    "entity1": "概念层的推理",
+    "entity2": "实体层的推理",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8606115579605103,
+    "combined_score": 0.7563669347763061
+  },
+  {
+    "entity1": "信息抽取",
+    "entity2": "文本信息抽取",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8160757422447205,
+    "combined_score": 0.7563121120134989
+  },
+  {
+    "entity1": "RDF(S)",
+    "entity2": "RDF(S)原语",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.726357102394104,
+    "combined_score": 0.7558142614364625
+  },
+  {
+    "entity1": "概念之间的关系",
+    "entity2": "概念之间的映射",
+    "entity1_type": "未知",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8592978715896606,
+    "combined_score": 0.7555787229537964
+  },
+  {
+    "entity1": "Is-a关系",
+    "entity2": "is-a关系",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8591968417167664,
+    "combined_score": 0.7555181050300598
+  },
+  {
+    "entity1": "知识图谱异构",
+    "entity2": "异构的知识图谱",
+    "entity1_type": "知识图谱",
+    "entity2_type": "知识图谱",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.7584105730056763,
+    "combined_score": 0.7550463438034059
+  },
+  {
+    "entity1": "数据库领域",
+    "entity2": "数据库",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9248839616775513,
+    "combined_score": 0.7549303770065308
+  },
+  {
+    "entity1": "键值数据库",
+    "entity2": "数据库",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9248839616775513,
+    "combined_score": 0.7549303770065308
+  },
+  {
+    "entity1": "数据库",
+    "entity2": "数据库模式",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9248839616775513,
+    "combined_score": 0.7549303770065308
+  },
+  {
+    "entity1": "数据库",
+    "entity2": "链接数据库",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9248839616775513,
+    "combined_score": 0.7549303770065308
+  },
+  {
+    "entity1": "数据源",
+    "entity2": "数据源模式",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9248839616775513,
+    "combined_score": 0.7549303770065308
+  },
+  {
+    "entity1": "互操作",
+    "entity2": "语义互操作",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9248839616775513,
+    "combined_score": 0.7549303770065308
+  },
+  {
+    "entity1": "可视化",
+    "entity2": "知识可视化",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9248839616775513,
+    "combined_score": 0.7549303770065308
+  },
+  {
+    "entity1": "页面",
+    "entity2": "词条页面",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9247816801071167,
+    "combined_score": 0.7548690080642699
+  },
+  {
+    "entity1": "六重索引存储方案",
+    "entity2": "六重索引方案",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.7244498133659363,
+    "combined_score": 0.7546698880195618
+  },
+  {
+    "entity1": "概念近似",
+    "entity2": "概念近似查询",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.813150942325592,
+    "combined_score": 0.7545572320620219
+  },
+  {
+    "entity1": "实体属性融合",
+    "entity2": "实体融合",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8128117322921753,
+    "combined_score": 0.7543537060419718
+  },
+  {
+    "entity1": "词典知识库",
+    "entity2": "多语言词典知识库",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.923919141292572,
+    "combined_score": 0.7543514847755433
+  },
+  {
+    "entity1": "金融证券领域知识图谱",
+    "entity2": "金融领域的知识图谱",
+    "entity1_type": "知识图谱",
+    "entity2_type": "知识图谱",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9228399991989136,
+    "combined_score": 0.7537039995193482
+  },
+  {
+    "entity1": "联合模型",
+    "entity2": "联合抽取模型",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8115679025650024,
+    "combined_score": 0.7536074082056681
+  },
+  {
+    "entity1": "子图结构信息",
+    "entity2": "结构信息",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8110412359237671,
+    "combined_score": 0.7532914082209269
+  },
+  {
+    "entity1": "owl:allValuesFrom",
+    "entity2": "owl:someValuesFrom",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9216580986976624,
+    "combined_score": 0.7529948592185973
+  },
+  {
+    "entity1": "面向知识图谱的推理",
+    "entity2": "知识图谱的推理",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.7214069366455078,
+    "combined_score": 0.7528441619873047
+  },
+  {
+    "entity1": "SPARQL模板",
+    "entity2": "SPARQL查询模板",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8102628588676453,
+    "combined_score": 0.7528243819872538
+  },
+  {
+    "entity1": "概念近似",
+    "entity2": "概念近似方法",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8100282549858093,
+    "combined_score": 0.7526836196581522
+  },
+  {
+    "entity1": "知识图谱",
+    "entity2": "统一知识图谱",
+    "entity1_type": "知识图谱",
+    "entity2_type": "知识图谱",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8098264932632446,
+    "combined_score": 0.7525625626246134
+  },
+  {
+    "entity1": "基于图的方法",
+    "entity2": "基于模板的方法",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8538543581962585,
+    "combined_score": 0.7523126149177551
+  },
+  {
+    "entity1": "基于统计的方法",
+    "entity2": "基于语言的方法",
+    "entity1_type": "未知",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.853604793548584,
+    "combined_score": 0.7521628761291503
+  },
+  {
+    "entity1": "基于模式的方法",
+    "entity2": "基于语言的方法",
+    "entity1_type": "未知",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.853604793548584,
+    "combined_score": 0.7521628761291503
+  },
+  {
+    "entity1": "基于语言的方法",
+    "entity2": "基于图形的方法",
+    "entity1_type": "知识抽取",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.853604793548584,
+    "combined_score": 0.7521628761291503
+  },
+  {
+    "entity1": "概念化不匹配",
+    "entity2": "解释不匹配",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9201834797859192,
+    "combined_score": 0.7521100878715514
+  },
+  {
+    "entity1": "余弦相似度",
+    "entity2": "关系相似度",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9200538396835327,
+    "combined_score": 0.7520323038101195
+  },
+  {
+    "entity1": "知识图谱问答",
+    "entity2": "知识图谱问答系统",
+    "entity1_type": "知识问答",
+    "entity2_type": "知识问答",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.7530781626701355,
+    "combined_score": 0.7518468976020813
+  },
+  {
+    "entity1": "单知识点问题",
+    "entity2": "多知识点问题",
+    "entity1_type": "知识问答",
+    "entity2_type": "知识问答",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9197412729263306,
+    "combined_score": 0.7518447637557983
+  },
+  {
+    "entity1": "源本体属性名",
+    "entity2": "目标本体属性名",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8525112867355347,
+    "combined_score": 0.7515067720413208
+  },
+  {
+    "entity1": "结构化的数据",
+    "entity2": "半结构化的数据",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.7515618801116943,
+    "combined_score": 0.7509371280670166
+  },
+  {
+    "entity1": "SPARQL查询算子",
+    "entity2": "生成SPARQL查询",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9179245829582214,
+    "combined_score": 0.750754749774933
+  },
+  {
+    "entity1": "本体版本",
+    "entity2": "本体版本变化",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.806725263595581,
+    "combined_score": 0.7507018248240153
+  },
+  {
+    "entity1": "知识图谱",
+    "entity2": "创投知识图谱",
+    "entity1_type": "知识图谱",
+    "entity2_type": "知识图谱",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8066313862800598,
+    "combined_score": 0.7506454984347025
+  },
+  {
+    "entity1": "条目",
+    "entity2": "数据条目",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9170093536376953,
+    "combined_score": 0.7502056121826173
+  },
+  {
+    "entity1": "余弦相似度",
+    "entity2": "相似度估计",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9162569046020508,
+    "combined_score": 0.7497541427612304
+  },
+  {
+    "entity1": "计算结构相似度",
+    "entity2": "计算相似度2",
+    "entity1_type": "未知",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.849270224571228,
+    "combined_score": 0.7495621347427368
+  },
+  {
+    "entity1": "不一致检查",
+    "entity2": "不一致检查2",
+    "entity1_type": "未知",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.7492690682411194,
+    "combined_score": 0.7495614409446716
+  },
+  {
+    "entity1": "概念之间的映射",
+    "entity2": "概念之间的念",
+    "entity1_type": "知识融合",
+    "entity2_type": "未知",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8491145372390747,
+    "combined_score": 0.7494687223434447
+  },
+  {
+    "entity1": "知识图谱构建",
+    "entity2": "知识图谱的构建",
+    "entity1_type": "知识图谱",
+    "entity2_type": "知识图谱",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.7490844130516052,
+    "combined_score": 0.7494506478309632
+  },
+  {
+    "entity1": "SPARQL查询客户端",
+    "entity2": "SPARQL查询图",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9152246713638306,
+    "combined_score": 0.7491348028182983
+  },
+  {
+    "entity1": "基于统计的方法",
+    "entity2": "基于组件的方法",
+    "entity1_type": "未知",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8483414649963379,
+    "combined_score": 0.7490048789978027
+  },
+  {
+    "entity1": "基于模式的方法",
+    "entity2": "基于组件的方法",
+    "entity1_type": "未知",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8483414649963379,
+    "combined_score": 0.7490048789978027
+  },
+  {
+    "entity1": "基于图形的方法",
+    "entity2": "基于组件的方法",
+    "entity1_type": "未知",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8483414649963379,
+    "combined_score": 0.7490048789978027
+  },
+  {
+    "entity1": "OWL本体管理",
+    "entity2": "OWL本体描述语言",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9139021635055542,
+    "combined_score": 0.7483412981033326
+  },
+  {
+    "entity1": "基于监督学习的关系抽取方法",
+    "entity2": "基于深度学习的监督或远程监督方法",
+    "entity1_type": "方法",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.913485050201416,
+    "combined_score": 0.7480910301208497
+  },
+  {
+    "entity1": "关系相似度",
+    "entity2": "相似度估计",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9134396314620972,
+    "combined_score": 0.7480637788772584
+  },
+  {
+    "entity1": "口味",
+    "entity2": "口味标签",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9123287200927734,
+    "combined_score": 0.7473972320556641
+  },
+  {
+    "entity1": "概念相似度",
+    "entity2": "关系相似度",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9122552871704102,
+    "combined_score": 0.7473531723022462
+  },
+  {
+    "entity1": "查询语句撰写1",
+    "entity2": "撰写Cypher查询语句1",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.7122484445571899,
+    "combined_score": 0.747349066734314
+  },
+  {
+    "entity1": "连续向量的知识表示",
+    "entity2": "知识图谱的向量表示",
+    "entity1_type": "知识表示",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.8008008599281311,
+    "combined_score": 0.7471471826235453
+  },
+  {
+    "entity1": "企业商业知识图谱",
+    "entity2": "企业知识图谱",
+    "entity1_type": "知识图谱",
+    "entity2_type": "知识图谱",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.7444463968276978,
+    "combined_score": 0.7466678380966187
+  },
+  {
+    "entity1": "N-Triple",
+    "entity2": "N-Triples",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9105914235115051,
+    "combined_score": 0.7463548541069032
+  },
+  {
+    "entity1": "大规模本体映射框架",
+    "entity2": "大规模本体映射方法",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8436357378959656,
+    "combined_score": 0.7461814427375794
+  },
+  {
+    "entity1": "原生存储引擎",
+    "entity2": "原生存储",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.799018144607544,
+    "combined_score": 0.746077553431193
+  },
+  {
+    "entity1": "RDF三元组",
+    "entity2": "RDF三元组集合",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7985876798629761,
+    "combined_score": 0.7458192745844523
+  },
+  {
+    "entity1": "基于规则的推理",
+    "entity2": "基于规则的推理系统",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.7096502780914307,
+    "combined_score": 0.7457901668548584
+  },
+  {
+    "entity1": "名字",
+    "entity2": "名字冲突",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9090079069137573,
+    "combined_score": 0.7454047441482543
+  },
+  {
+    "entity1": "概念最佳近似",
+    "entity2": "概念近似",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7977694869041443,
+    "combined_score": 0.7453283588091533
+  },
+  {
+    "entity1": "结构化信息",
+    "entity2": "结构化语义信息",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7974718809127808,
+    "combined_score": 0.7451497952143351
+  },
+  {
+    "entity1": "SPARQL查询",
+    "entity2": "SPARQL查询模板",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7970761656761169,
+    "combined_score": 0.7449123660723368
+  },
+  {
+    "entity1": "图遍历算法",
+    "entity2": "图排序算法",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9079163074493408,
+    "combined_score": 0.7447497844696045
+  },
+  {
+    "entity1": "金融知识图谱的建立",
+    "entity2": "金融领域的知识图谱",
+    "entity1_type": "未知",
+    "entity2_type": "知识图谱",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.79674232006073,
+    "combined_score": 0.7447120587031046
+  },
+  {
+    "entity1": "描述逻辑语言",
+    "entity2": "逻辑描述",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7961839437484741,
+    "combined_score": 0.7443770329157511
+  },
+  {
+    "entity1": "知识图谱的表示学习",
+    "entity2": "知识图谱表示学习",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.8,
+    "embedding_similarity": 0.7068907022476196,
+    "combined_score": 0.7441344213485719
+  },
+  {
+    "entity1": "相似度",
+    "entity2": "相似度匹配",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7950550317764282,
+    "combined_score": 0.7436996857325235
+  },
+  {
+    "entity1": "概念的属性",
+    "entity2": "关系的属性",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9060260057449341,
+    "combined_score": 0.7436156034469605
+  },
+  {
+    "entity1": "映射算法",
+    "entity2": "本体映射发现算法",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9057422280311584,
+    "combined_score": 0.7434453368186951
+  },
+  {
+    "entity1": "形式化概念分析",
+    "entity2": "形式化概念分析技术",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7946237921714783,
+    "combined_score": 0.7434409419695536
+  },
+  {
+    "entity1": "相似度量公式",
+    "entity2": "度量公式",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7941984534263611,
+    "combined_score": 0.7431857387224833
+  },
+  {
+    "entity1": "模型层的不匹配划分",
+    "entity2": "依据模型层的不匹配来划分本体映射",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8373149633407593,
+    "combined_score": 0.7423889780044556
+  },
+  {
+    "entity1": "基于结构的映射发现方法",
+    "entity2": "基于实例的本体映射发现方法",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.625,
+    "embedding_similarity": 0.8205299377441406,
+    "combined_score": 0.7423179626464844
+  },
+  {
+    "entity1": "概念之间的映射",
+    "entity2": "实例之间的映射",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8371881246566772,
+    "combined_score": 0.7423128747940063
+  },
+  {
+    "entity1": "单个本体演化",
+    "entity2": "单个本体",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7927302718162537,
+    "combined_score": 0.7423048297564188
+  },
+  {
+    "entity1": "关系抽取",
+    "entity2": "关系抽取系统",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7920635938644409,
+    "combined_score": 0.7419048229853311
+  },
+  {
+    "entity1": "计算结构相似度",
+    "entity2": "计算相似度3",
+    "entity1_type": "未知",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8365078568458557,
+    "combined_score": 0.7419047141075134
+  },
+  {
+    "entity1": "NELL",
+    "entity2": "NELL系统",
+    "entity1_type": "知识图谱项目",
+    "entity2_type": "知识图谱项目",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9031060934066772,
+    "combined_score": 0.7418636560440064
+  },
+  {
+    "entity1": "撰写Cypher查询语句2",
+    "entity2": "撰写Cypher更新语句",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9027537703514099,
+    "combined_score": 0.7416522622108459
+  },
+  {
+    "entity1": "合并后的本体",
+    "entity2": "合并的本体",
+    "entity1_type": "知识表示",
+    "entity2_type": "未知",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.735790491104126,
+    "combined_score": 0.7414742946624756
+  },
+  {
+    "entity1": "语法",
+    "entity2": "语法模型",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9016491174697876,
+    "combined_score": 0.7409894704818725
+  },
+  {
+    "entity1": "子图同态匹配",
+    "entity2": "子图匹配查询",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9014148116111755,
+    "combined_score": 0.7408488869667054
+  },
+  {
+    "entity1": "食材",
+    "entity2": "食材标签",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9011045694351196,
+    "combined_score": 0.7406627416610718
+  },
+  {
+    "entity1": "撰写Cypher查询语句1",
+    "entity2": "撰写Cypher更新语句",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9008462429046631,
+    "combined_score": 0.7405077457427978
+  },
+  {
+    "entity1": "基于演绎的知识图谱推理",
+    "entity2": "基于演绎的推理",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.789342999458313,
+    "combined_score": 0.7402724663416544
+  },
+  {
+    "entity1": "RDF图数据模型",
+    "entity2": "RDF语义数据模型",
+    "entity1_type": "知识表示",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9003271460533142,
+    "combined_score": 0.7401962876319885
+  },
+  {
+    "entity1": "文档",
+    "entity2": "文档万维网",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9002810120582581,
+    "combined_score": 0.7401686072349549
+  },
+  {
+    "entity1": "SPARQL查询图",
+    "entity2": "SPARQL查询模板",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.9001164436340332,
+    "combined_score": 0.7400698661804199
+  },
+  {
+    "entity1": "OWL_Lite",
+    "entity2": "OWL_Full",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8994855880737305,
+    "combined_score": 0.7396913528442384
+  },
+  {
+    "entity1": "模式",
+    "entity2": "模式树",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8991491198539734,
+    "combined_score": 0.7394894719123841
+  },
+  {
+    "entity1": "等价性",
+    "entity2": "等价",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8991491198539734,
+    "combined_score": 0.7394894719123841
+  },
+  {
+    "entity1": "引用",
+    "entity2": "引用表",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8991491198539734,
+    "combined_score": 0.7394894719123841
+  },
+  {
+    "entity1": "数据图",
+    "entity2": "数据",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8991491198539734,
+    "combined_score": 0.7394894719123841
+  },
+  {
+    "entity1": "该任务",
+    "entity2": "任务",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8991491198539734,
+    "combined_score": 0.7394894719123841
+  },
+  {
+    "entity1": "语言",
+    "entity2": "语言层",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8991491198539734,
+    "combined_score": 0.7394894719123841
+  },
+  {
+    "entity1": "数据",
+    "entity2": "数据层",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8991491198539734,
+    "combined_score": 0.7394894719123841
+  },
+  {
+    "entity1": "尾实体链接预测",
+    "entity2": "头实体链接预测",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8320716619491577,
+    "combined_score": 0.7392429971694946
+  },
+  {
+    "entity1": "知识图谱表示",
+    "entity2": "知识表示学习",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8983743190765381,
+    "combined_score": 0.7390245914459228
+  },
+  {
+    "entity1": "RDF三元组数据库",
+    "entity2": "面向RDF的三元组数据库",
+    "entity1_type": "知识存储",
+    "entity2_type": "知识存储",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8316400647163391,
+    "combined_score": 0.7389840388298035
+  },
+  {
+    "entity1": "RDF数据",
+    "entity2": "RDF数据图",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7862911224365234,
+    "combined_score": 0.7384413401285808
+  },
+  {
+    "entity1": "多本体的映射",
+    "entity2": "基于实例的本体映射",
+    "entity1_type": "知识融合",
+    "entity2_type": "知识融合",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8967565298080444,
+    "combined_score": 0.7380539178848267
+  },
+  {
+    "entity1": "关联数据",
+    "entity2": "数据间关联关系",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8965925574302673,
+    "combined_score": 0.7379555344581603
+  },
+  {
+    "entity1": "数据间关联关系",
+    "entity2": "关联关系",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8965925574302673,
+    "combined_score": 0.7379555344581603
+  },
+  {
+    "entity1": "数据间关联关系",
+    "entity2": "数据关联",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8965925574302673,
+    "combined_score": 0.7379555344581603
+  },
+  {
+    "entity1": "图谱结构",
+    "entity2": "知识图谱图结构",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8965925574302673,
+    "combined_score": 0.7379555344581603
+  },
+  {
+    "entity1": "离散符号表示",
+    "entity2": "计算机符号表示",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8964752554893494,
+    "combined_score": 0.7378851532936097
+  },
+  {
+    "entity1": "关系的向量表示",
+    "entity2": "关系的表示",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.7295778393745422,
+    "combined_score": 0.7377467036247254
+  },
+  {
+    "entity1": "基于语义解析的方法",
+    "entity2": "语义解析方法",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8294567465782166,
+    "combined_score": 0.7376740479469299
+  },
+  {
+    "entity1": "实体之间的关系",
+    "entity2": "词与词之间的关系",
+    "entity1_type": "知识表示",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8960544466972351,
+    "combined_score": 0.7376326680183412
+  },
+  {
+    "entity1": "异构本体间的映射",
+    "entity2": "异构本体元素间的映射",
+    "entity1_type": "未知",
+    "entity2_type": "本体映射",
+    "name_similarity": 0.8333333333333334,
+    "embedding_similarity": 0.6736139059066772,
+    "combined_score": 0.7375016768773397
+  },
+  {
+    "entity1": "社区发现",
+    "entity2": "社区发现算法",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7841572761535645,
+    "combined_score": 0.7371610323588054
+  },
+  {
+    "entity1": "OWL_2_RL",
+    "entity2": "OWL_RL",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.7284113168716431,
+    "combined_score": 0.7370467901229858
+  },
+  {
+    "entity1": "SPARQL查询",
+    "entity2": "链式SPARQL查询",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7836215496063232,
+    "combined_score": 0.7368395964304606
+  },
+  {
+    "entity1": "监督学习",
+    "entity2": "监督学习模型",
+    "entity1_type": "知识抽取",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7834687829017639,
+    "combined_score": 0.736747936407725
+  },
+  {
+    "entity1": "可视化RDF图浏览器",
+    "entity2": "RDF浏览器",
+    "entity1_type": "知识图谱",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8944715261459351,
+    "combined_score": 0.736682915687561
+  },
+  {
+    "entity1": "知识图谱匹配问题",
+    "entity2": "大规模知识图谱匹配",
+    "entity1_type": "知识图谱",
+    "entity2_type": "知识图谱",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8275612592697144,
+    "combined_score": 0.7365367555618285
+  },
+  {
+    "entity1": "rdfs:subClassOf",
+    "entity2": "rdfs:subPropertyOf",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8942157030105591,
+    "combined_score": 0.7365294218063354
+  },
+  {
+    "entity1": "基于远程监督的方法",
+    "entity2": "基于深度学习的监督或远程监督方法",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.625,
+    "embedding_similarity": 0.8100368976593018,
+    "combined_score": 0.736022138595581
+  },
+  {
+    "entity1": "基于语言的方法",
+    "entity2": "基于模板的方法",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.6,
+    "embedding_similarity": 0.8260014653205872,
+    "combined_score": 0.7356008791923523
+  },
+  {
+    "entity1": "多本体间的映射",
+    "entity2": "多本体间的桥",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7815201282501221,
+    "combined_score": 0.7355787436167398
+  },
+  {
+    "entity1": "多本体间的沟通",
+    "entity2": "多本体间的桥",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7815201282501221,
+    "combined_score": 0.7355787436167398
+  },
+  {
+    "entity1": "事物的别名",
+    "entity2": "事物的定义",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8925908803939819,
+    "combined_score": 0.7355545282363891
+  },
+  {
+    "entity1": "知识图谱的向量表示",
+    "entity2": "知识图谱的表示学习",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7811279892921448,
+    "combined_score": 0.7353434602419535
+  },
+  {
+    "entity1": "目标本体",
+    "entity2": "目标本体属性名",
+    "entity1_type": "未知",
+    "entity2_type": "未知",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8922178745269775,
+    "combined_score": 0.7353307247161864
+  },
+  {
+    "entity1": "知识抽取方法",
+    "entity2": "事件抽取方法",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.8914542198181152,
+    "combined_score": 0.7348725318908691
+  },
+  {
+    "entity1": "知识图谱问答技术",
+    "entity2": "知识图谱问答",
+    "entity1_type": "知识问答",
+    "entity2_type": "知识问答",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.7246617078781128,
+    "combined_score": 0.7347970247268677
+  },
+  {
+    "entity1": "基于字符串相似性的方法",
+    "entity2": "基于语言的方法",
+    "entity1_type": "知识抽取",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.891136884689331,
+    "combined_score": 0.7346821308135987
+  },
+  {
+    "entity1": "相似度",
+    "entity2": "相似度得分",
+    "entity1_type": "知识推理",
+    "entity2_type": "知识推理",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7799760103225708,
+    "combined_score": 0.7346522728602092
+  },
+  {
+    "entity1": "事件触发词分类器",
+    "entity2": "事件触发词",
+    "entity1_type": "未知",
+    "entity2_type": "知识抽取",
+    "name_similarity": 0.75,
+    "embedding_similarity": 0.7241736650466919,
+    "combined_score": 0.7345041990280152
+  },
+  {
+    "entity1": "知识表示",
+    "entity2": "知识表示模型",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7795538306236267,
+    "combined_score": 0.7343989650408427
+  },
+  {
+    "entity1": "R2ML映射语言",
+    "entity2": "R2RML映射语言",
+    "entity1_type": "知识表示",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.5,
+    "embedding_similarity": 0.890430212020874,
+    "combined_score": 0.7342581272125244
+  },
+  {
+    "entity1": "SPARQL查询算子",
+    "entity2": "SPARQL查询",
+    "entity1_type": "未知",
+    "entity2_type": "知识表示",
+    "name_similarity": 0.6666666666666666,
+    "embedding_similarity": 0.7793184518814087,
+    "combined_score": 0.7342577377955118
+  }
+]

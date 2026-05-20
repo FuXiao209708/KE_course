@@ -1,0 +1,6 @@
+python ie2instruction/convert_func.py --src_path ft_spo_json_2/2_test_spo.json --tgt_path ft_spo_json_2/2_test.json --schema_path ft_spo_json_2/schema.json --language zh --task SPO --split_num 4 --split test
+python ie2instruction/convert_func.py --src_path ft_spo_json_2/3_test_spo.json --tgt_path ft_spo_json_2/3_test.json --schema_path ft_spo_json_2/schema.json --language zh --task SPO --split_num 4 --split test
+python ie2instruction/convert_func.py --src_path ft_spo_json_2/4_test_spo.json --tgt_path ft_spo_json_2/4_test.json --schema_path ft_spo_json_2/schema.json --language zh --task SPO --split_num 4 --split test
+python ie2instruction/convert_func.py --src_path ft_spo_json_2/5_test_spo.json --tgt_path ft_spo_json_2/5_test.json --schema_path ft_spo_json_2/schema.json --language zh --task SPO --split_num 4 --split test
+python ie2instruction/convert_func.py --src_path ft_spo_json_2/6_test_spo.json --tgt_path ft_spo_json_2/6_test.json --schema_path ft_spo_json_2/schema.json --language zh --task SPO --split_num 4 --split test
+python ie2instruction/convert_func.py --src_path ft_spo_json_2/8_test_spo.json --tgt_path ft_spo_json_2/8_test.json --schema_path ft_spo_json_2/schema.json --language zh --task SPO --split_num 4 --split test

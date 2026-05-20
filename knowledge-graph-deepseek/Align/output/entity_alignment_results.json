@@ -1,0 +1,808 @@
+[
+  {
+    "entity1": "图数据库Neo4j",
+    "entity2": "Neo4j图数据库",
+    "confidence": 1.0,
+    "features": [
+      "实例",
+      "内容"
+    ]
+  },
+  {
+    "entity1": "单本体的集成",
+    "entity2": "单本体的本体集成",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "缺点",
+      "实例"
+    ]
+  },
+  {
+    "entity1": "知识图谱间的匹配",
+    "entity2": "大规模知识图谱间的匹配",
+    "confidence": 1.0,
+    "features": [
+      "作用"
+    ]
+  },
+  {
+    "entity1": "知识图谱数据存储方案",
+    "entity2": "知识图谱存储方案",
+    "confidence": 1.0,
+    "features": [
+      "包含"
+    ]
+  },
+  {
+    "entity1": "比较本体间的术语的方法",
+    "entity2": "比较本体间的术语",
+    "confidence": 1.0,
+    "features": [
+      "内容"
+    ]
+  },
+  {
+    "entity1": "RDF图数据",
+    "entity2": "RDF数据图",
+    "confidence": 1.0,
+    "features": []
+  },
+  {
+    "entity1": "从类别中进行类型推断",
+    "entity2": "从文本中进行类型推断",
+    "confidence": 1.0,
+    "features": [
+      "方法"
+    ]
+  },
+  {
+    "entity1": "全局本体-局部本体的集成",
+    "entity2": "全局本体—局部本体的集成",
+    "confidence": 1.0,
+    "features": [
+      "实例"
+    ]
+  },
+  {
+    "entity1": "概念的集合",
+    "entity2": "全部概念的集合",
+    "confidence": 1.0,
+    "features": [
+      "内容"
+    ]
+  },
+  {
+    "entity1": "数据转换",
+    "entity2": "数据转换方式",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "包含"
+    ]
+  },
+  {
+    "entity1": "本体间概念的近似技术",
+    "entity2": "本体间的概念近似技术",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "作用",
+      "前提"
+    ]
+  },
+  {
+    "entity1": "实体属性检索",
+    "entity2": "多种属性条件检索实体",
+    "confidence": 1.0,
+    "features": [
+      "特点"
+    ]
+  },
+  {
+    "entity1": "基于全局本体—局部本体的集成过程",
+    "entity2": "全局本体—局部本体的集成",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "包含"
+    ]
+  },
+  {
+    "entity1": "语义本体",
+    "entity2": "本体语义",
+    "confidence": 1.0,
+    "features": []
+  },
+  {
+    "entity1": "远程监督关系抽取方法",
+    "entity2": "远程监督实体关系抽取方法",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "方法",
+      "前提"
+    ]
+  },
+  {
+    "entity1": "基于图结构的推理",
+    "entity2": "图结构的推理",
+    "confidence": 1.0,
+    "features": [
+      "内容"
+    ]
+  },
+  {
+    "entity1": "本体集成",
+    "entity2": "集成本体",
+    "confidence": 1.0,
+    "features": [
+      "缺点",
+      "方法",
+      "内容"
+    ]
+  },
+  {
+    "entity1": "自顶向下的方法",
+    "entity2": "自顶向下的构建方法",
+    "confidence": 1.0,
+    "features": [
+      "作用",
+      "特点"
+    ]
+  },
+  {
+    "entity1": "Neo4j图数据库",
+    "entity2": "Neo4j数据库",
+    "confidence": 1.0,
+    "features": [
+      "方法",
+      "实例"
+    ]
+  },
+  {
+    "entity1": "基于术语的方法",
+    "entity2": "基于术语的映射发现方法",
+    "confidence": 1.0,
+    "features": [
+      "被定义为",
+      "前提",
+      "实例"
+    ]
+  },
+  {
+    "entity1": "基于实例的本体映射技术",
+    "entity2": "基于实例的本体映射",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "包含"
+    ]
+  },
+  {
+    "entity1": "基于表示学习的推理",
+    "entity2": "基于分布式表示学习的推理",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "被定义为",
+      "包含"
+    ]
+  },
+  {
+    "entity1": "图数据库Neo4j",
+    "entity2": "Neo4j数据库",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "实例"
+    ]
+  },
+  {
+    "entity1": "全局本体-局部本体",
+    "entity2": "全局本体—局部本体",
+    "confidence": 1.0,
+    "features": [
+      "内容"
+    ]
+  },
+  {
+    "entity1": "Is-a关系",
+    "entity2": "Is-a的关系",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "包含"
+    ]
+  },
+  {
+    "entity1": "一阶谓词逻辑",
+    "entity2": "一阶逻辑",
+    "confidence": 1.0,
+    "features": [
+      "英文名",
+      "被定义为",
+      "特点"
+    ]
+  },
+  {
+    "entity1": "Jointly(w)",
+    "entity2": "Jointly(z)",
+    "confidence": 1.0,
+    "features": [
+      "方法"
+    ]
+  },
+  {
+    "entity1": "基于特征模板的方法",
+    "entity2": "基于模板的方法",
+    "confidence": 1.0,
+    "features": [
+      "实例"
+    ]
+  },
+  {
+    "entity1": "基于实例的本体映射发现方法",
+    "entity2": "基于实例的映射发现方法",
+    "confidence": 1.0,
+    "features": [
+      "特点",
+      "实例"
+    ]
+  },
+  {
+    "entity1": "本体概念相似度",
+    "entity2": "本体相似度",
+    "confidence": 1.0,
+    "features": [
+      "内容"
+    ]
+  },
+  {
+    "entity1": "本体间的映射",
+    "entity2": "本体间映射的管理",
+    "confidence": 1.0,
+    "features": [
+      "前提",
+      "作用",
+      "内容"
+    ]
+  },
+  {
+    "entity1": "本体OWL",
+    "entity2": "OWL本体",
+    "confidence": 1.0,
+    "features": [
+      "英文名",
+      "实例"
+    ]
+  },
+  {
+    "entity1": "搜索引擎",
+    "entity2": "该搜索引擎",
+    "confidence": 1.0,
+    "features": [
+      "由组成"
+    ]
+  },
+  {
+    "entity1": "部分整体关系",
+    "entity2": "整体—部分关系",
+    "confidence": 1.0,
+    "features": [
+      "内容"
+    ]
+  },
+  {
+    "entity1": "意图分类",
+    "entity2": "意图分类模块",
+    "confidence": 1.0,
+    "features": [
+      "内容"
+    ]
+  },
+  {
+    "entity1": "RDF图",
+    "entity2": "RDF图数据模型",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "英文名",
+      "被定义为"
+    ]
+  },
+  {
+    "entity1": "本体间的映射",
+    "entity2": "异构本体间的映射",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "特点",
+      "方法"
+    ]
+  },
+  {
+    "entity1": "事件的联合抽取方法",
+    "entity2": "联合事件抽取方法",
+    "confidence": 1.0,
+    "features": [
+      "方法"
+    ]
+  },
+  {
+    "entity1": "知识表示方法",
+    "entity2": "表示方法",
+    "confidence": 1.0,
+    "features": [
+      "包含"
+    ]
+  },
+  {
+    "entity1": "Skip-gram",
+    "entity2": "Skip-gram模型",
+    "confidence": 1.0,
+    "features": [
+      "实例"
+    ]
+  },
+  {
+    "entity1": "命名实体识别",
+    "entity2": "命名实体识别技术",
+    "confidence": 1.0,
+    "features": [
+      "方法",
+      "实现",
+      "被定义为"
+    ]
+  },
+  {
+    "entity1": "水平表",
+    "entity2": "水平表存储方案",
+    "confidence": 1.0,
+    "features": [
+      "实例",
+      "内容",
+      "特点"
+    ]
+  },
+  {
+    "entity1": "基于全局本体—局部本体的集成过程",
+    "entity2": "全局本体—局部本体的集成方法",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "包含"
+    ]
+  },
+  {
+    "entity1": "RDF的三元组数据库",
+    "entity2": "RDF三元组数据库",
+    "confidence": 1.0,
+    "features": [
+      "内容"
+    ]
+  },
+  {
+    "entity1": "RDF三元组数据库",
+    "entity2": "RDF数据库",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "英文名",
+      "被定义为"
+    ]
+  },
+  {
+    "entity1": "本体OWL",
+    "entity2": "OWL本体描述语言",
+    "confidence": 1.0,
+    "features": [
+      "英文名",
+      "实例"
+    ]
+  },
+  {
+    "entity1": "本体间的映射",
+    "entity2": "多本体的映射",
+    "confidence": 1.0,
+    "features": [
+      "前提",
+      "内容",
+      "特点"
+    ]
+  },
+  {
+    "entity1": "远程监督方法",
+    "entity2": "远程监督关系抽取方法",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "包含",
+      "被定义为"
+    ]
+  },
+  {
+    "entity1": "RDF语义数据模型",
+    "entity2": "RDF数据模型",
+    "confidence": 1.0,
+    "features": [
+      "包含"
+    ]
+  },
+  {
+    "entity1": "映射结果质量",
+    "entity2": "映射结果的质量",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "缺点"
+    ]
+  },
+  {
+    "entity1": "三元组数据库",
+    "entity2": "RDF三元组数据库",
+    "confidence": 1.0,
+    "features": [
+      "包含",
+      "作用",
+      "特点"
+    ]
+  },
+  {
+    "entity1": "知识图谱表示学习",
+    "entity2": "知识图谱表示学习技术",
+    "confidence": 1.0,
+    "features": [
+      "作用",
+      "实现",
+      "内容"
+    ]
+  },
+  {
+    "entity1": "上义和下义映射",
+    "entity2": "上义和下义关系",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "包含"
+    ]
+  },
+  {
+    "entity1": "结构匹配",
+    "entity2": "结构匹配算法",
+    "confidence": 1.0,
+    "features": [
+      "包含",
+      "内容"
+    ]
+  },
+  {
+    "entity1": "RDF三元组存储",
+    "entity2": "RDF三元组存储系统",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "发展为"
+    ]
+  },
+  {
+    "entity1": "问答系统",
+    "entity2": "知识问答系统",
+    "confidence": 1.0,
+    "features": [
+      "作用",
+      "内容",
+      "方法"
+    ]
+  },
+  {
+    "entity1": "知识图谱表示学习方法",
+    "entity2": "知识图谱表示学习",
+    "confidence": 1.0,
+    "features": [
+      "特点",
+      "方法",
+      "实现"
+    ]
+  },
+  {
+    "entity1": "语义搜索",
+    "entity2": "语义搜索系统",
+    "confidence": 1.0,
+    "features": [
+      "特点",
+      "方法",
+      "内容"
+    ]
+  },
+  {
+    "entity1": "查询处理功能",
+    "entity2": "查询处理",
+    "confidence": 1.0,
+    "features": []
+  },
+  {
+    "entity1": "层次结构",
+    "entity2": "概念层次结构",
+    "confidence": 1.0,
+    "features": [
+      "包含"
+    ]
+  },
+  {
+    "entity1": "机器翻译",
+    "entity2": "机器翻译技术",
+    "confidence": 1.0,
+    "features": []
+  },
+  {
+    "entity1": "行业知识图谱",
+    "entity2": "垂直知识图谱",
+    "confidence": 1.0,
+    "features": [
+      "被定义为"
+    ]
+  },
+  {
+    "entity1": "基于规则学习的推理",
+    "entity2": "基于规则的推理",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "等价"
+    ]
+  },
+  {
+    "entity1": "金融证券知识图谱",
+    "entity2": "金融证券领域知识图谱",
+    "confidence": 1.0,
+    "features": [
+      "内容"
+    ]
+  },
+  {
+    "entity1": "基于向量的知识图谱表示",
+    "entity2": "知识图谱的表示学习",
+    "confidence": 1.0,
+    "features": [
+      "特点"
+    ]
+  },
+  {
+    "entity1": "知识图谱",
+    "entity2": "知识图谱数据模型",
+    "confidence": 1.0,
+    "features": [
+      "特点",
+      "内容",
+      "由组成"
+    ]
+  },
+  {
+    "entity1": "知识图谱表示学习",
+    "entity2": "知识图谱向量表示",
+    "confidence": 1.0,
+    "features": [
+      "方法",
+      "作用",
+      "内容"
+    ]
+  },
+  {
+    "entity1": "信息抽取",
+    "entity2": "文本信息抽取",
+    "confidence": 1.0,
+    "features": [
+      "方法",
+      "内容",
+      "特点"
+    ]
+  },
+  {
+    "entity1": "Is-a关系",
+    "entity2": "is-a关系",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "包含"
+    ]
+  },
+  {
+    "entity1": "知识图谱异构",
+    "entity2": "异构的知识图谱",
+    "confidence": 1.0,
+    "features": [
+      "缺点",
+      "作用",
+      "实现"
+    ]
+  },
+  {
+    "entity1": "六重索引存储方案",
+    "entity2": "六重索引方案",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "缺点",
+      "被定义为"
+    ]
+  },
+  {
+    "entity1": "联合模型",
+    "entity2": "联合抽取模型",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "由组成"
+    ]
+  },
+  {
+    "entity1": "SPARQL模板",
+    "entity2": "SPARQL查询模板",
+    "confidence": 1.0,
+    "features": []
+  },
+  {
+    "entity1": "知识图谱构建",
+    "entity2": "知识图谱的构建",
+    "confidence": 1.0,
+    "features": [
+      "方法",
+      "缺点",
+      "内容"
+    ]
+  },
+  {
+    "entity1": "连续向量的知识表示",
+    "entity2": "知识图谱的向量表示",
+    "confidence": 1.0,
+    "features": [
+      "作用",
+      "实现"
+    ]
+  },
+  {
+    "entity1": "N-Triple",
+    "entity2": "N-Triples",
+    "confidence": 1.0,
+    "features": [
+      "实例"
+    ]
+  },
+  {
+    "entity1": "RDF三元组",
+    "entity2": "RDF三元组集合",
+    "confidence": 1.0,
+    "features": [
+      "被定义为",
+      "内容",
+      "方法"
+    ]
+  },
+  {
+    "entity1": "金融知识图谱的建立",
+    "entity2": "金融领域的知识图谱",
+    "confidence": 1.0,
+    "features": [
+      "包含"
+    ]
+  },
+  {
+    "entity1": "知识图谱的表示学习",
+    "entity2": "知识图谱表示学习",
+    "confidence": 1.0,
+    "features": [
+      "等价"
+    ]
+  },
+  {
+    "entity1": "模型层的不匹配划分",
+    "entity2": "依据模型层的不匹配来划分本体映射",
+    "confidence": 1.0,
+    "features": [
+      "特点",
+      "缺点"
+    ]
+  },
+  {
+    "entity1": "NELL",
+    "entity2": "NELL系统",
+    "confidence": 1.0,
+    "features": [
+      "方法",
+      "内容",
+      "实例"
+    ]
+  },
+  {
+    "entity1": "合并后的本体",
+    "entity2": "合并的本体",
+    "confidence": 1.0,
+    "features": [
+      "前提",
+      "内容"
+    ]
+  },
+  {
+    "entity1": "基于演绎的知识图谱推理",
+    "entity2": "基于演绎的推理",
+    "confidence": 1.0,
+    "features": [
+      "前提",
+      "内容",
+      "实例"
+    ]
+  },
+  {
+    "entity1": "等价性",
+    "entity2": "等价",
+    "confidence": 1.0,
+    "features": []
+  },
+  {
+    "entity1": "RDF三元组数据库",
+    "entity2": "面向RDF的三元组数据库",
+    "confidence": 1.0,
+    "features": [
+      "内容",
+      "英文名",
+      "被定义为"
+    ]
+  },
+  {
+    "entity1": "数据间关联关系",
+    "entity2": "数据关联",
+    "confidence": 1.0,
+    "features": []
+  },
+  {
+    "entity1": "基于语义解析的方法",
+    "entity2": "语义解析方法",
+    "confidence": 1.0,
+    "features": [
+      "被定义为",
+      "包含"
+    ]
+  },
+  {
+    "entity1": "异构本体间的映射",
+    "entity2": "异构本体元素间的映射",
+    "confidence": 1.0,
+    "features": []
+  },
+  {
+    "entity1": "OWL_2_RL",
+    "entity2": "OWL_RL",
+    "confidence": 1.0,
+    "features": [
+      "被定义为",
+      "实例",
+      "内容"
+    ]
+  },
+  {
+    "entity1": "监督学习",
+    "entity2": "监督学习模型",
+    "confidence": 1.0,
+    "features": [
+      "缺点"
+    ]
+  },
+  {
+    "entity1": "知识图谱的向量表示",
+    "entity2": "知识图谱的表示学习",
+    "confidence": 1.0,
+    "features": [
+      "等价"
+    ]
+  },
+  {
+    "entity1": "知识图谱问答技术",
+    "entity2": "知识图谱问答",
+    "confidence": 1.0,
+    "features": [
+      "方法",
+      "实现"
+    ]
+  }
+]
