@@ -1,0 +1,28 @@
+{
+  "entities": [
+    {
+      "id": "e001",
+      "name": "描述逻辑",
+      "type": "concept",
+      "description": "一种形式化的知识表示方法",
+      "color": "#1f77b4",
+      "size": 40
+    },
+    {
+      "id": "e002",
+      "name": "本体",
+      "type": "concept",
+      "description": "对某一领域概念及其关系的形式化抽象",
+      "color": "#2ca02c",
+      "size": 36
+    }
+  ],
+  "relations": [
+    {
+      "source": "e001",
+      "target": "e002",
+      "type": "基础",
+      "label": "描述逻辑是构建本体的基础"
+    }
+  ]
+}

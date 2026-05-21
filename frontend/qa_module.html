@@ -1,0 +1,31 @@
+<div class="mb-4">
+  <div class="section-title">
+    <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 15a4 4 0 0 1-4 4H7l-4 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"/></svg>
+    启发式智能答疑
+  </div>
+  <div class="subtle">多轮问答 + 图谱联动，展示知识结构化能力</div>
+</div>
+
+<div class="grid grid-cols-3 gap-6">
+  <div class="col-span-2 p-6 h-[70vh] flex flex-col card">
+    <div id="chat-window" class="flex-1 overflow-auto space-y-4 p-3"></div>
+    <div class="mt-4 flex items-center gap-3">
+      <div class="flex-1">
+        <textarea id="qa-input" rows="2" class="w-full p-3 input-field" placeholder="输入问题，或从右侧选择演示问题"></textarea>
+      </div>
+      <button id="qa-send" class="btn-primary">提问</button>
+    </div>
+  </div>
+  <div class="col-span-1 p-6 h-[70vh] card">
+    <div class="section-title mb-3">
+      <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+      演示问题
+    </div>
+    <div id="demo-questions" class="space-y-2"></div>
+    <div class="section-title mt-6 mb-3">
+      <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l7 4v10l-7 4-7-4V7z"/></svg>
+      知识图谱
+    </div>
+    <div id="graph" class="w-full h-64 rounded-md graph-canvas"></div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+{
+  "exercises": [
+    {
+      "id": "ex001",
+      "title": "本体与描述逻辑的关系",
+      "description": "简述本体与描述逻辑的联系与区别",
+      "standard_answer": "本体是使用描述逻辑作为形式化基础来表示领域概念与关系",
+      "evaluation_dimensions": ["概念准确性", "逻辑清晰性", "表达完整性"]
+    }
+  ]
+}

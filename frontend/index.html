@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>知识工程智能助教系统 Demo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="/static/css/style.css" rel="stylesheet">
+  <script src="https://unpkg.com/vis-network@9.1.2/standalone/umd/vis-network.min.js"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+  <div class="min-h-screen flex">
+    <!-- 统一可折叠侧边栏 -->
+    <aside id="sidebar" class="sidebar">
+      <div class="sidebar-inner">
+        <!-- 顶部：收拢按钮 -->
+        <div class="sidebar-toggle-row">
+          <button id="sidebar-toggle" class="sidebar-toggle" type="button" aria-label="收拢/展开侧边栏">
+            <span class="sidebar-toggle-icon" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <!-- 顶部区：首页 + 课程 Logo（点击回首页） -->
+        <button class="sidebar-home" type="button" data-route="home" title="返回首页">
+          <div class="sb-label">
+            <div class="sidebar-home-title">首页</div>
+          </div>
+          <img class="sidebar-logo" src="assets/course_logo.png" alt="课程 Logo" />
+        </button>
+
+        <!-- 功能导航区：四大功能页 -->
+        <nav class="sidebar-nav" aria-label="功能导航">
+          <button class="sb-item" type="button" data-route="assistant" data-short="导" title="智能课程助手">
+            <span class="sb-label">智能课程助手</span>
+          </button>
+          <button class="sb-item" type="button" data-route="exercises" data-short="练" title="作业练习及解答">
+            <span class="sb-label">作业练习及解答</span>
+          </button>
+          <button class="sb-item" type="button" data-route="knowledge-graph" data-short="图" title="课程知识图谱">
+            <span class="sb-label">课程知识图谱</span>
+          </button>
+          <button class="sb-item" type="button" data-route="analytics" data-short="情" title="班级学情分析">
+            <span class="sb-label">班级学情分析</span>
+          </button>
+        </nav>
+
+        <!-- 底部留白区：占位符（不做跳转） -->
+        <div class="sidebar-spacer"></div>
+        <div class="sidebar-bottom" aria-label="账号与设置">
+          <button class="sb-bottom-item" type="button" title="账号管理（占位符）">
+            <img class="sidebar-avatar" src="assets/user_avatar.png" alt="用户头像" />
+            <span class="sb-label">账号管理</span>
+          </button>
+          <button class="sb-bottom-item" type="button" data-short="设" title="设置（占位符）">
+            <span class="sb-label">设置</span>
+          </button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- 主内容区 -->
+    <main class="flex-1 min-w-0 p-6 md:p-8">
+    <!-- 首页门户 -->
+      <section class="page home-hero" data-page="home">
+        <div class="home-hero-inner max-w-6xl mx-auto">
+          <!-- 顶部双 Logo 锚点 -->
+          <div class="home-logos">
+            <img src="assets/course_logo.png" alt="课程 Logo" class="home-logo" />
+            <img src="assets/university_logo.png" alt="学校 Logo" class="home-logo" />
+          </div>
+
+          <!-- Hero 文本区（更大更舒展） -->
+          <div class="home-hero-text">
+            <div class="home-badges">
+              <span class="home-badge">知识图谱驱动</span>
+              <span class="home-badge">启发式导学</span>
+              <span class="home-badge">2026春季课程</span>
+            </div>
+            <div class="home-kicker">知识工程课程 · 智能助教平台</div>
+            <h1 class="home-title">知识工程智能助教系统</h1>
+            <p class="home-desc">
+              面向课堂教学与作业场景，围绕“知识建模—推理—诊断—反馈”链路提供一体化学习支持。
+              你可以通过智能对话快速定位知识点，通过作业练习获得结构化评判反馈，并在知识图谱中查看概念关系，
+              最终在学情看板中把握班级整体学习状态。
+            </p>
+            <div class="home-meta">服务对象：全校选修同学及助教团队 | 系统版本：v1 Pro</div>
+          </div>
+
+          <!-- 1x4 功能卡片矩阵 -->
+          <div class="home-grid">
+            <button class="home-feature home-feature-green" type="button" data-route="assistant" data-route-expand="1">
+              <div class="home-feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="4" y="7" width="16" height="10" rx="3" />
+                  <path d="M9 7V5a3 3 0 0 1 6 0v2" />
+                  <path d="M8 17v2" />
+                  <path d="M16 17v2" />
+                  <circle cx="9.5" cy="12" r="1" />
+                  <circle cx="14.5" cy="12" r="1" />
+                </svg>
+              </div>
+              <div class="home-feature-title">智能课程助手</div>
+              <div class="home-feature-desc">AI 导学对话、多轮问答、个性化学习建议。</div>
+            </button>
+            <button class="home-feature home-feature-amber" type="button" data-route="exercises" data-route-expand="1">
+              <div class="home-feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="6" y="4" width="12" height="16" rx="2" />
+                  <path d="M9 8h6" />
+                  <path d="M9 12h6" />
+                  <path d="M9 16h4" />
+                  <path d="M16 9l2 2 3-3" />
+                </svg>
+              </div>
+              <div class="home-feature-title">作业练习及解答</div>
+              <div class="home-feature-desc">结构化评判、多维诊断与反馈可视化。</div>
+            </button>
+            <button class="home-feature home-feature-green" type="button" data-route="knowledge-graph" data-route-expand="1">
+              <div class="home-feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="6" cy="12" r="2" />
+                  <circle cx="12" cy="6" r="2" />
+                  <circle cx="18" cy="12" r="2" />
+                  <circle cx="12" cy="18" r="2" />
+                  <path d="M8 11l2-3" />
+                  <path d="M14 7l2 3" />
+                  <path d="M14 17l2-3" />
+                  <path d="M8 13l2 3" />
+                </svg>
+              </div>
+              <div class="home-feature-title">课程知识图谱</div>
+              <div class="home-feature-desc">知识点关系可视化、结构化梳理与探索。</div>
+            </button>
+            <button class="home-feature home-feature-amber" type="button" data-route="analytics" data-route-expand="1">
+              <div class="home-feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 18V6" />
+                  <path d="M8 18v-5" />
+                  <path d="M12 18v-8" />
+                  <path d="M16 18v-3" />
+                  <path d="M20 18v-10" />
+                  <path d="M6 9l4-3 4 2 6-4" />
+                </svg>
+              </div>
+              <div class="home-feature-title">班级学情分析</div>
+              <div class="home-feature-desc">学习行为洞察、掌握度热区与风险提示。</div>
+            </button>
+          </div>
+        </div>
+      </section>
+
+    <!-- 智能课程助手（原：AI导学对话） -->
+      <section class="page hidden" data-page="assistant">
+      <div class="mb-6">
+        <div class="subtle">首页门户 / 智能课程助手</div>
+        <div class="mt-2 flex items-end justify-between gap-4">
+          <h2 class="text-xl font-semibold text-slate-900">智能课程助手</h2>
+          <div class="subtle">亮色学术风格</div>
+        </div>
+      </div>
+      <div id="assistant-root"></div>
+      </section>
+
+    <!-- 作业练习及解答（原：习题讲解与诊断） -->
+      <section class="page hidden" data-page="exercises">
+      <div class="mb-6">
+        <div class="subtle">首页门户 / 作业练习及解答</div>
+        <div class="mt-2 flex items-end justify-between gap-4">
+          <h2 class="text-xl font-semibold text-slate-900">作业练习及解答</h2>
+          <div class="subtle">亮色学术风格</div>
+        </div>
+      </div>
+      <div id="exercises-root"></div>
+      </section>
+
+    <!-- 课程知识图谱 -->
+      <section class="page hidden" data-page="knowledge-graph">
+      <div class="mb-6">
+        <div class="subtle">首页门户 / 课程知识图谱</div>
+        <div class="mt-2 flex items-end justify-between gap-4">
+          <h2 class="text-xl font-semibold text-slate-900">课程知识图谱</h2>
+          <div class="subtle">动态可视化展示</div>
+        </div>
+      </div>
+
+      <div class="card p-6">
+        <div class="section-title mb-2">
+          <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l7 4v10l-7 4-7-4V7z"/></svg>
+          图谱画布
+        </div>
+        <div class="subtle mb-4">展示课程知识点及其关系；数据来自后端图谱接口。</div>
+        <div id="kg-graph" class="w-full h-[70vh] rounded-md graph-canvas"></div>
+        <div id="kg-hint" class="mt-4 subtle"></div>
+      </div>
+      </section>
+
+    <!-- 班级学情分析 -->
+      <section class="page hidden" data-page="analytics">
+      <div class="mb-6">
+        <div class="subtle">首页门户 / 班级学情分析</div>
+        <div class="mt-2 flex items-end justify-between gap-4">
+          <h2 class="text-xl font-semibold text-slate-900">班级学情分析</h2>
+          <div class="subtle">学情监控看板（骨架）</div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="card p-6">
+          <div class="text-sm text-slate-500">作业完成率</div>
+          <div class="mt-2 text-2xl font-semibold text-slate-900">—</div>
+          <div class="mt-2 subtle">待接入数据源</div>
+        </div>
+        <div class="card p-6">
+          <div class="text-sm text-slate-500">知识点掌握度</div>
+          <div class="mt-2 text-2xl font-semibold text-slate-900">—</div>
+          <div class="mt-2 subtle">待接入数据源</div>
+        </div>
+        <div class="card p-6">
+          <div class="text-sm text-slate-500">高频错因</div>
+          <div class="mt-2 text-2xl font-semibold text-slate-900">—</div>
+          <div class="mt-2 subtle">待接入数据源</div>
+        </div>
+      </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/static/js/app.js"></script>
+  <script src="/static/js/qa_handler.js"></script>
+  <script src="/static/js/quiz_handler.js"></script>
+</body>
+</html>
