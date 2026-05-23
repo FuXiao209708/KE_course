@@ -1,8 +1,0 @@
-{
-    "chat.tools.terminal.autoApprove": {
-        "/^conda run -n CDKG python -m uvicorn backend\\.app:app --reload --host 127\\.0\\.0\\.1 --port 8000$/": {
-            "approve": true,
-            "matchCommandLine": true
-        }
-    }
-}

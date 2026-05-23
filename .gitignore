@@ -3,3 +3,5 @@ knowledge-graph-deepseek/
 knowledge-graph-master/
 __pycache__/
 *.pyc
+.claude/
+.vscode/
