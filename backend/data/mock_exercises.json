@@ -1,11 +1,75 @@
 {
   "exercises": [
     {
-      "id": "ex001",
-      "title": "本体与描述逻辑的关系",
-      "description": "简述本体与描述逻辑的联系与区别",
-      "standard_answer": "本体是使用描述逻辑作为形式化基础来表示领域概念与关系",
+    "id": "ex01", 
+    "title": "实体消歧：局部与全局的差别",
+    "description": "为什么全局消歧通常比只看单个 mention 的局部消歧更稳健？",
+    "standard_answer": "局部消歧只利用当前 mention 与候选实体的上下文匹配；全局消歧会联合考虑同一表格中多个候选实体之间的语义关联，选择整体更一致的一组实体。",
+    "evaluation_dimensions": ["概念准确性", "逻辑清晰性", "表达完整性"]
+    },
+    {
+      "id": "ex002",
+      "title": "三元组抽取的三步链路",
+      "description": "给定一个 Web 表格，怎样把单元格内容转成知识图谱中的结构化三元组？",
+      "standard_answer": "先做实体链接：mention → KB entity；再做列类型识别：column → class/type；最后做关系抽取：column pair → relation。三步分别解决“指向谁”、“属于什么类”、“两列是什么关系”。其核心流水线为 Pipeline = Entity Linking + Column Typing + Relation Extraction。",
+      "evaluation_dimensions": ["概念准确性", "逻辑清晰性", "表达完整性"]
+    },
+    {
+      "id": "ex003",
+      "title": "Levenshtein 距离：最小编辑步数",
+      "description": "计算 LD(\"wtx\", \"yty\") 与 LD(\"wtx\", \"yt\")。允许插入、删除、替换，每次操作代价为 1。",
+      "standard_answer": "LD(\"wtx\",\"yty\") = 2：w→y 替换，x→y 替换，t 保留；LD(\"wtx\",\"yt\") = 2：w→y 替换，删除 x，t 保留。",
+      "evaluation_dimensions": ["概念准确性", "逻辑清晰性", "表达完整性"]
+    },
+    {
+      "id": "ex004",
+      "title": "Jaccard 相似度：集合交并比",
+      "description": "计算 “Michael Jeffrey Jordan” 与 “Michael Irwin Jordan” 的 Jaccard；并解释三元切分的 “Chinese” 与 “Japanese” 。",
+      "standard_answer": "人名切分后：A={Michael, Jeffrey, Jordan}，B={Michael, Irwin, Jordan}，交集 2 ，并集 4，J=0.5。三元切分时 Chinese 与 Japanese 的交集为 {nes, ese}，并集 9 ，J≈0.22。",
+      "evaluation_dimensions": ["概念准确性", "逻辑清晰性", "表达完整性"]
+    },
+    {
+      "id": "ex005",
+      "title": "从类别中抽取事实：正则与约束",
+      "description": "若文章实体为 Qiang Yang，类别为 “1964 births” ，可抽取什么三元组？为什么还需要 domain / range checking?",
+      "standard_answer": "可抽取 <Qiang Yang, birthOnDate, 1964>。但类别文本可能对应多种关系，必须检查主语是否满足关系 domain、宾语是否满足 range，避免把行政类、主题类或错误对象当作事实。",
+      "evaluation_dimensions": ["概念准确性", "逻辑清晰性", "表达完整性"]
+    },
+    {
+      "id": "ex006",
+      "title": "实体类型推断的多来源策略",
+      "description": "在线百科中，实体类型可以从哪些信息源推断？各自有什么风险？",
+      "standard_answer": "可来自 infobox 模板名、infobox 属性值、百科类别、首句定义文本。风险包括模板名过粗、属性名歧义、类别不一定是概念类型、文本抽取后还需链接到真实类型实体。",
+      "evaluation_dimensions": ["概念准确性", "逻辑清晰性", "表达完整性"]
+    },
+    {
+      "id": "ex007",
+      "title": "分类体系归纳：is-a 与 not-is-a 判定",
+      "description": "根据词法头规则，判断 “British Computer Scientists” 与 “Computer Scientists”、“Crime comics” 与 “Crime” 的关系。",
+      "standard_answer": "前者共享 lexical head “Computer Scientists”，可判定 British Computer Scientists is-a Computer Scientists；后者 “Crime” 出现在非 head 位置，Crime comics 表示漫画类型，不是 Crime 本身，因此是 not-is-a。",
+      "evaluation_dimensions": ["概念准确性", "逻辑清晰性", "表达完整性"]
+    },
+    {
+      "id": "ex008",
+      "title": "Hearst Pattern：从文本中抽取上位词",
+      "description": "句子 “red algae, such as Gelidium” 中，Gelidium 与 red algae 的 IS-A 关系是什么？依据是什么模式？",
+      "standard_answer": "“such as” 是经典 Hearst pattern：NP such as NP1 表示 NP1 是 NP 的下位概念。因此可抽取 <Gelidium, is-a, red algae>。",
+      "evaluation_dimensions": ["概念准确性", "逻辑清晰性", "表达完整性"]
+    },
+    {
+      "id": "ex009",
+      "title": "结构级匹配：一阶邻居 Jaccard",
+      "description": "计算不同本体中 Car 与 Automobile 的一阶邻居类别集合的 Jaccard 相似度。",
+      "standard_answer": "Car 的一阶邻居可取 {Vehicle, Jeep, Truck}；Automobile 的一阶邻居可取 {Vehicle, Van, Truck}。交集为 {Vehicle, Truck}，并集为 {Vehicle, Jeep, Truck, Van}。",
+      "evaluation_dimensions": ["概念准确性", "逻辑清晰性", "表达完整性"]
+    },
+    {
+      "id": "ex010",
+      "title": "SPARQL OPTIONAL 与 Cypher 角色查询",
+      "description": "SPARQL 中 OPTIONAL 内含 FILTER(?price<30) 时，为什么 42 不显示但对应 title 仍保留？如何用 Cypher 查询包含角色 “Card Fox” 的电影名？",
+      "standard_answer": "OPTIONAL 不匹配不会删除主解；filter 失败只使该 optional 变量未绑定。因此输出包含 “SPARQL Tutorial”（price 空）与 “The Semantic Web”（price=23）。Cypher 可匹配 ACTED_IN 关系属性 role。",
       "evaluation_dimensions": ["概念准确性", "逻辑清晰性", "表达完整性"]
     }
+
   ]
 }

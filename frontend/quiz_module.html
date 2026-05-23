@@ -1,28 +1,30 @@
-<div class="mb-4">
-  <div class="section-title">
-    <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
-    习题演练与学业诊断
-  </div>
-  <div class="subtle">结构化评判 + 多维反馈面板</div>
-</div>
-
 <div class="grid grid-cols-3 gap-6">
-  <div class="col-span-1 p-6 h-[70vh] card">
+  <div class="col-span-1 card p-6 flex flex-col" style="height: calc(100vh - 280px);">
     <div class="section-title mb-3">
       <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
       题目卡片
     </div>
-    <div id="quiz-list" class="space-y-4"></div>
+
+    <!-- 选项卡 -->
+    <div class="quiz-tabs mb-4">
+      <button class="quiz-tab is-active" type="button" data-tab="comprehensive">综合复习</button>
+      <button class="quiz-tab" type="button" data-tab="topic">专题练习</button>
+      <button class="quiz-tab" type="button" data-tab="frequent">高频错题</button>
+    </div>
+
+    <!-- 题目列表（可滚动） -->
+    <div id="quiz-list" class="flex-1 overflow-y-auto space-y-4 pr-2"></div>
   </div>
-  <div class="col-span-2 p-6 h-[70vh] card">
+
+  <div class="col-span-2 card p-6 flex flex-col" style="height: calc(100vh - 280px);">
     <div class="section-title mb-3">
       <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 2H6a2 2 0 0 0-2 2v16l4-4h6a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/></svg>
-      答题
+      答题评判
     </div>
-    <div id="selected-question" class="mb-4"></div>
-    <textarea id="student-answer" class="w-full h-40 p-3 mb-4 input-field" placeholder="输入你的解答"></textarea>
+    <div id="selected-question" class="mb-4 quiz-question-display"></div>
+    <textarea id="student-answer" class="w-full p-3 mb-4 input-field quiz-answer-input" placeholder="输入你的解答"></textarea>
     <button id="submit-quiz" class="btn-primary">提交评判</button>
 
-    <div id="diagnostic" class="mt-6"></div>
+    <div id="diagnostic" class="mt-6 overflow-y-auto flex-1"></div>
   </div>
 </div>

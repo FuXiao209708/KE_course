@@ -1,12 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
   const pages = Array.from(document.querySelectorAll('.page[data-page]'));
   const sidebar = document.getElementById('sidebar');
-  const sidebarToggle = document.getElementById('sidebar-toggle');
   const sidebarNavButtons = Array.from(document.querySelectorAll('.sidebar-nav .sb-item[data-route]'));
   const routeTriggers = Array.from(document.querySelectorAll('[data-route]'));
 
   const assistantRoot = document.getElementById('assistant-root');
   const exercisesRoot = document.getElementById('exercises-root');
+  const forumRoot = document.getElementById('forum-root');
+  const analyticsRoot = document.getElementById('analytics-root');
   const kgContainer = document.getElementById('kg-graph');
   const kgHint = document.getElementById('kg-hint');
 
@@ -14,6 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
     assistant: false,
     exercises: false,
     knowledgeGraph: false,
+    forum: false,
+    analytics: false,
   };
 
   function setActiveNav(route) {
@@ -50,9 +53,43 @@ document.addEventListener('DOMContentLoaded', () => {
     if (window.initQuiz) window.initQuiz();
   }
 
+  async function ensureForumLoaded() {
+    if (loaded.forum) return;
+    if (!forumRoot) return;
+    await loadModuleInto(forumRoot, 'forum_module.html');
+    loaded.forum = true;
+    if (window.initForum) window.initForum();
+  }
+
+  async function ensureAnalyticsLoaded() {
+    if (loaded.analytics) return;
+    if (!analyticsRoot) return;
+    loaded.analytics = true;
+    if (window.initAnalytics) window.initAnalytics();
+  }
+
   async function ensureKnowledgeGraphLoaded() {
     if (loaded.knowledgeGraph) return;
+    if (!kgContainer) return;
+
+    // 添加图谱选择器按钮事件监听
+    const kgButtons = document.querySelectorAll('.kg-selector-btn');
+    kgButtons.forEach(btn => {
+      btn.addEventListener('click', async () => {
+        // 移除所有按钮的选中状态
+        kgButtons.forEach(b => b.classList.remove('is-active'));
+        // 设置当前按钮为选中状态
+        btn.classList.add('is-active');
+
+        // 加载图谱（目前所有按钮都加载相同的图谱）
+        await loadKnowledgeGraph();
+      });
+    });
+
     loaded.knowledgeGraph = true;
+  }
+
+  async function loadKnowledgeGraph() {
     if (!kgContainer) return;
 
     try {
@@ -93,6 +130,10 @@ document.addEventListener('DOMContentLoaded', () => {
         physics: { stabilization: true },
         interaction: { hover: true },
       };
+
+      // 清空容器并渲染图谱
+      kgContainer.innerHTML = '';
+      kgContainer.classList.remove('flex', 'items-center', 'justify-center', 'text-slate-400');
       new vis.Network(kgContainer, data, options);
       if (kgHint) kgHint.textContent = `已加载：${entities.length} 个实体，${relations.length} 条关系。`;
     } catch (e) {
@@ -114,12 +155,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (route === 'assistant') await ensureAssistantLoaded();
     if (route === 'exercises') await ensureExercisesLoaded();
     if (route === 'knowledge-graph') await ensureKnowledgeGraphLoaded();
-  }
-
-  if (sidebarToggle && sidebar) {
-    sidebarToggle.addEventListener('click', () => {
-      sidebar.classList.toggle('is-collapsed');
-    });
+    if (route === 'forum') await ensureForumLoaded();
+    if (route === 'analytics') await ensureAnalyticsLoaded();
   }
 
   routeTriggers.forEach((el) => {
@@ -128,14 +165,42 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!route) return;
       ev.preventDefault();
 
-      // 首页核心按钮：联动展开侧边栏
-      if (el.dataset.routeExpand === '1' && sidebar) {
-        sidebar.classList.remove('is-collapsed');
-      }
-
       routeTo(route);
     });
   });
+
+  // 意见反馈弹窗
+  const feedbackBtn = document.getElementById('feedback-btn');
+  const feedbackModal = document.getElementById('feedback-modal');
+  const feedbackClose = document.getElementById('feedback-close');
+  const feedbackCancel = document.getElementById('feedback-cancel');
+  const feedbackSubmit = document.getElementById('feedback-submit');
+
+  function openFeedback() {
+    feedbackModal.classList.remove('hidden');
+    setTimeout(() => feedbackModal.classList.add('is-open'), 10);
+  }
+
+  function closeFeedback() {
+    feedbackModal.classList.remove('is-open');
+    setTimeout(() => feedbackModal.classList.add('hidden'), 200);
+  }
+
+  if (feedbackBtn) feedbackBtn.addEventListener('click', openFeedback);
+  if (feedbackClose) feedbackClose.addEventListener('click', closeFeedback);
+  if (feedbackCancel) feedbackCancel.addEventListener('click', closeFeedback);
+  if (feedbackSubmit) {
+    feedbackSubmit.addEventListener('click', () => {
+      const input = document.getElementById('feedback-input');
+      if (input && input.value.trim()) {
+        input.value = '';
+        closeFeedback();
+      }
+    });
+  }
+  if (feedbackModal) {
+    feedbackModal.querySelector('.feedback-modal-overlay').addEventListener('click', closeFeedback);
+  }
 
   // 默认进入首页
   routeTo('home');

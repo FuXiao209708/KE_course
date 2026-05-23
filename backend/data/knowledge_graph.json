@@ -1,9 +1,673 @@
 {
   "entities": [
-    {"id": "e001", "name": "描述逻辑", "description": "形式化知识表示", "color": "#1f77b4", "size": 40},
-    {"id": "e002", "name": "本体", "description": "领域概念的抽象", "color": "#2ca02c", "size": 36}
+    {
+      "id": "e001",
+      "name": "描述逻辑",
+      "description": "形式化知识表示",
+      "color": "#93c5fd",
+      "size": 40
+    },
+    {
+      "id": "e002",
+      "name": "本体",
+      "description": "领域概念的抽象",
+      "color": "#86efac",
+      "size": 36
+    },
+    {
+      "id": "e003",
+      "name": "知识图谱",
+      "description": "知识图谱",
+      "color": "#93c5fd",
+      "size": 42
+    },
+    {
+      "id": "e004",
+      "name": "语义网络",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e005",
+      "name": "三元组",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e006",
+      "name": "RDF图",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e007",
+      "name": "属性图",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e008",
+      "name": "SPARQL",
+      "description": "知识存储",
+      "color": "#fcd34d",
+      "size": 28
+    },
+    {
+      "id": "e009",
+      "name": "DBpedia",
+      "description": "知识图谱项目",
+      "color": "#7dd3fc",
+      "size": 32
+    },
+    {
+      "id": "e010",
+      "name": "Yago",
+      "description": "知识图谱",
+      "color": "#93c5fd",
+      "size": 28
+    },
+    {
+      "id": "e011",
+      "name": "Freebase",
+      "description": "知识图谱项目",
+      "color": "#7dd3fc",
+      "size": 32
+    },
+    {
+      "id": "e012",
+      "name": "Wikidata",
+      "description": "知识图谱项目",
+      "color": "#7dd3fc",
+      "size": 32
+    },
+    {
+      "id": "e013",
+      "name": "本体层",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e014",
+      "name": "实例层",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e015",
+      "name": "知识图谱补全",
+      "description": "",
+      "color": "#cbd5e1",
+      "size": 28
+    },
+    {
+      "id": "e016",
+      "name": "节点",
+      "description": "知识图谱",
+      "color": "#93c5fd",
+      "size": 28
+    },
+    {
+      "id": "e017",
+      "name": "弧",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e018",
+      "name": "WordNet",
+      "description": "知识图谱项目",
+      "color": "#7dd3fc",
+      "size": 32
+    },
+    {
+      "id": "e019",
+      "name": "推理",
+      "description": "知识推理",
+      "color": "#c4b5fd",
+      "size": 28
+    },
+    {
+      "id": "e020",
+      "name": "语义关系",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e021",
+      "name": "节点1",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e022",
+      "name": "联想弧",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e023",
+      "name": "节点2",
+      "description": "",
+      "color": "#cbd5e1",
+      "size": 28
+    },
+    {
+      "id": "e024",
+      "name": "主语",
+      "description": "",
+      "color": "#cbd5e1",
+      "size": 28
+    },
+    {
+      "id": "e025",
+      "name": "谓语",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e026",
+      "name": "宾语",
+      "description": "",
+      "color": "#cbd5e1",
+      "size": 28
+    },
+    {
+      "id": "e027",
+      "name": "头实体",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e028",
+      "name": "尾实体",
+      "description": "",
+      "color": "#cbd5e1",
+      "size": 28
+    },
+    {
+      "id": "e029",
+      "name": "RDF",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e030",
+      "name": "RDF三元组",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e031",
+      "name": "标签图",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e032",
+      "name": "查询语言",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e033",
+      "name": "SELECT",
+      "description": "",
+      "color": "#cbd5e1",
+      "size": 28
+    },
+    {
+      "id": "e034",
+      "name": "ASK",
+      "description": "知识存储",
+      "color": "#fcd34d",
+      "size": 28
+    },
+    {
+      "id": "e035",
+      "name": "CONSTRUCT",
+      "description": "知识存储",
+      "color": "#fcd34d",
+      "size": 28
+    },
+    {
+      "id": "e036",
+      "name": "DESCRIBE",
+      "description": "知识存储",
+      "color": "#fcd34d",
+      "size": 28
+    },
+    {
+      "id": "e037",
+      "name": "图匹配",
+      "description": "",
+      "color": "#cbd5e1",
+      "size": 28
+    },
+    {
+      "id": "e038",
+      "name": "图数据库",
+      "description": "知识存储",
+      "color": "#fcd34d",
+      "size": 28
+    },
+    {
+      "id": "e039",
+      "name": "节点集",
+      "description": "",
+      "color": "#cbd5e1",
+      "size": 28
+    },
+    {
+      "id": "e040",
+      "name": "边集",
+      "description": "",
+      "color": "#cbd5e1",
+      "size": 28
+    },
+    {
+      "id": "e041",
+      "name": "三元组数据",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e042",
+      "name": "抽象概念",
+      "description": "",
+      "color": "#cbd5e1",
+      "size": 28
+    },
+    {
+      "id": "e043",
+      "name": "属性",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e044",
+      "name": "公理",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e045",
+      "name": "实体对象",
+      "description": "",
+      "color": "#cbd5e1",
+      "size": 28
+    },
+    {
+      "id": "e046",
+      "name": "实体间的关系",
+      "description": "知识表示",
+      "color": "#86efac",
+      "size": 28
+    },
+    {
+      "id": "e047",
+      "name": "结构化数据",
+      "description": "知识存储",
+      "color": "#fcd34d",
+      "size": 28
+    },
+    {
+      "id": "e048",
+      "name": "语义网",
+      "description": "知识图谱",
+      "color": "#93c5fd",
+      "size": 28
+    },
+    {
+      "id": "e049",
+      "name": "RDF知识图谱",
+      "description": "知识图谱",
+      "color": "#93c5fd",
+      "size": 28
+    }
   ],
   "relations": [
-    {"source": "e001", "target": "e002", "type": "基础", "label": "描述逻辑是构建本体的基础"}
+    {
+      "source": "e001",
+      "target": "e002",
+      "type": "基础",
+      "label": "描述逻辑是构建本体的基础"
+    },
+    {
+      "source": "e003",
+      "target": "e004",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e003",
+      "target": "e005",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e003",
+      "target": "e006",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e003",
+      "target": "e007",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e003",
+      "target": "e008",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e003",
+      "target": "e009",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e003",
+      "target": "e010",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e003",
+      "target": "e011",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e003",
+      "target": "e012",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e003",
+      "target": "e013",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e003",
+      "target": "e014",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e003",
+      "target": "e015",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e004",
+      "target": "e016",
+      "type": "由组成",
+      "label": "由组成"
+    },
+    {
+      "source": "e004",
+      "target": "e017",
+      "type": "由组成",
+      "label": "由组成"
+    },
+    {
+      "source": "e004",
+      "target": "e005",
+      "type": "由组成",
+      "label": "由组成"
+    },
+    {
+      "source": "e004",
+      "target": "e018",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e004",
+      "target": "e019",
+      "type": "前提",
+      "label": "前提"
+    },
+    {
+      "source": "e004",
+      "target": "e020",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e005",
+      "target": "e021",
+      "type": "由组成",
+      "label": "由组成"
+    },
+    {
+      "source": "e005",
+      "target": "e022",
+      "type": "由组成",
+      "label": "由组成"
+    },
+    {
+      "source": "e005",
+      "target": "e023",
+      "type": "由组成",
+      "label": "由组成"
+    },
+    {
+      "source": "e005",
+      "target": "e024",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e005",
+      "target": "e025",
+      "type": "由组成",
+      "label": "由组成"
+    },
+    {
+      "source": "e005",
+      "target": "e026",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e005",
+      "target": "e027",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e005",
+      "target": "e028",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e005",
+      "target": "e029",
+      "type": "实例",
+      "label": "实例"
+    },
+    {
+      "source": "e006",
+      "target": "e030",
+      "type": "由组成",
+      "label": "由组成"
+    },
+    {
+      "source": "e006",
+      "target": "e008",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e006",
+      "target": "e003",
+      "type": "实例",
+      "label": "实例"
+    },
+    {
+      "source": "e006",
+      "target": "e031",
+      "type": "由组成",
+      "label": "由组成"
+    },
+    {
+      "source": "e008",
+      "target": "e006",
+      "type": "实例",
+      "label": "实例"
+    },
+    {
+      "source": "e008",
+      "target": "e032",
+      "type": "实例",
+      "label": "实例"
+    },
+    {
+      "source": "e008",
+      "target": "e033",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e008",
+      "target": "e034",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e008",
+      "target": "e035",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e008",
+      "target": "e036",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e008",
+      "target": "e037",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e008",
+      "target": "e038",
+      "type": "实现",
+      "label": "实现"
+    },
+    {
+      "source": "e007",
+      "target": "e039",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e007",
+      "target": "e040",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e007",
+      "target": "e038",
+      "type": "实例",
+      "label": "实例"
+    },
+    {
+      "source": "e007",
+      "target": "e041",
+      "type": "实例",
+      "label": "实例"
+    },
+    {
+      "source": "e013",
+      "target": "e042",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e013",
+      "target": "e043",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e013",
+      "target": "e044",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e014",
+      "target": "e045",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e014",
+      "target": "e046",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e009",
+      "target": "e003",
+      "type": "实例",
+      "label": "实例"
+    },
+    {
+      "source": "e009",
+      "target": "e002",
+      "type": "包含",
+      "label": "包含"
+    },
+    {
+      "source": "e009",
+      "target": "e047",
+      "type": "实现",
+      "label": "实现"
+    },
+    {
+      "source": "e009",
+      "target": "e048",
+      "type": "发展为",
+      "label": "发展为"
+    },
+    {
+      "source": "e009",
+      "target": "e049",
+      "type": "实例",
+      "label": "实例"
+    }
   ]
 }
